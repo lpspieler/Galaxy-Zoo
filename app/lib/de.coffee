@@ -1,46 +1,46 @@
 module.exports =
   zooniverse:
     browser_check:
-      wont_work: "This site probably won't work until you update your browser."
-      recommended: 'We recommend using <a href="http://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a> or <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.'
-      ie: '''If you use <a href="http://www.microsoft.com/windows/internet-explorer/" target="_blank">Microsoft Internet Explorer</a>, make sure you're running the latest version.'''
-      chrome_frame: '''If you can't install the latest Internet Explorer, try <a href="http://google.com/chromeframe" target="_blank">Chrome Frame</a>!'''
+      wont_work: "Um diese Website zu nutzen müssen Sie wahrscheinlich Ihren Browser updaten."
+      recommended: 'Wir empfehlen <a href="http://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a> oder <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.'
+      ie: '''Falls Sie <a href="http://www.microsoft.com/windows/internet-explorer/" target="_blank">Microsoft Internet Explorer</a> verwenden, installieren Sie bitte die aktuellste Version.'''
+      chrome_frame: '''Falls Sie die aktuellste Version des Internet Explorer nicht verwenden können, probieren Sie doch das <a href="http://google.com/chromeframe" target="_blank">Chrome Frame</a> Plugin!'''
       dismiss: 'Dismiss'
     
     login:
-      username: 'Username'
-      password: 'Password'
-      login: 'Login'
-      forgot_password: 'Forgot Password?'
+      username: 'Benutzername'
+      password: 'Passwort'
+      login: 'Einloggen'
+      forgot_password: 'Passwort vergessen?'
     
     sign_in:
-      title: 'Sign in with your Zooniverse account'
-      sign_up: "Don't have an account? Create one!"
-      button: 'Sign in'
-      progress: 'Signing in...'
+      title: 'Mit Ihrem Zooniverse-Account einloggen'
+      sign_up: "Account erstellen"
+      button: 'Einloggen'
+      progress: 'Einloggen läuft...'
     
     sign_up:
-      title: 'Sign up for a new Zooniverse account'
-      confirmation: 'Password (confirm)'
-      password_match: 'Password must match confirmation'
-      sign_in: 'Already have an account? Sign in!'
-      email: 'Email address'
-      privacy: 'I agree to the <a href="https://www.zooniverse.org/privacy" target="_blank">privacy policy</a>'
-      button: 'Sign up'
-      progress: 'Creating account and signing in...'
+      title: 'Zooniverse-Account erstellen'
+      confirmation: 'Passwort bestätigen'
+      password_match: 'Passwort stimmt nicht überein'
+      sign_in: 'Account schon vorhanden? Hier einloggen!'
+      email: 'E-Mail-Adresse:'
+      privacy: 'Ich stimme den <a href="https://www.zooniverse.org/privacy" target="_blank">Datenschutzbestimmungen</a> zu.'
+      button: 'Account fertigstellen'
+      progress: 'Ihr Account wird erstellt und Sie werden eingeloggt...'
     
     sign_out:
-      current: 'Currently logged in as <strong class="current"></strong>.'
-      button: 'Sign Out'
-      progress: 'Signing out...'
+      current: 'Eingeloggt als <strong class="current"></strong>.'
+      button: 'Abmelden'
+      progress: 'Abmelden läuft...'
     
     top_bar:
-      title: '<span id="app-name"></span> is a <a href="https://www.zooniverse.org">Zooniverse</a> project.'
-      description: 'The Zooniverse is a collection of web-based Citizen Science projects that use the efforts and abilities of volunteers to help reseachers deal with the flood of data that confronts them.'
-      greeting: 'Hi, <strong>{user}</strong>. Welcome to {appName}!'
+      title: '<span id="app-name"></span> ist ein <a href="https://www.zooniverse.org">Zooniverse</a>-Projekt.'
+      description: 'Zooniverse ist ein Zusammenschluss web-basierter Citizen-Science-Projekte. Sie bauen auf die Mithilfe und die Fähigkeiten von freiwilligen Helfern, um Wissenschaftler bei der Verarbeitung großer Datenmengen zu unterstützen.'
+      greeting: 'Hallo, <strong>{user}</strong>. Willkommen bei {appName}!'
       projects:
-        title: 'Our Projects'
-        list: 'We currently have 12 projects on subjects ranging from <a href="https://www.zooniverse.org/#space">astronomy</a>, to <a href="https://www.zooniverse.org/#climate">climatology</a>, to <a href="https://www.zooniverse.org/#nature">biology</a>, to <a href="https://www.zooniverse.org/#humanities">humanities</a>.'
+        title: 'Unsere Projekte'
+        list: 'Wir haben derzeit 12 Projekte zu Themen wie <a href="https://www.zooniverse.org/#space">Astronomie</a>, <a href="https://www.zooniverse.org/#climate">Klimaforschung</a>, <a href="https://www.zooniverse.org/#nature">Biologie</a>, <a href="https://www.zooniverse.org/#humanities">Humanwissenschaften</a>.'
   
   
   questions:
