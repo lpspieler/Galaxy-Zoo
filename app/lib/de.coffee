@@ -5,7 +5,7 @@ module.exports =
       recommended: 'Wir empfehlen <a href="http://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a> oder <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.'
       ie: '''Falls Sie <a href="http://www.microsoft.com/windows/internet-explorer/" target="_blank">Microsoft Internet Explorer</a> verwenden, installieren Sie bitte die aktuellste Version.'''
       chrome_frame: '''Falls Sie die aktuellste Version des Internet Explorer nicht verwenden können, probieren Sie doch das <a href="http://google.com/chromeframe" target="_blank">Chrome Frame</a> Plugin!'''
-      dismiss: 'Dismiss'
+      dismiss: 'Ignorieren'
     
     login:
       username: 'Benutzername'
@@ -45,117 +45,118 @@ module.exports =
   
   questions:
     'sloan-0':
-      text: "Is the galaxy simply smooth and rounded, with no sign of a disk?"
-      title: "Shape"
-      help: "The aim here is to divide featureless galaxies from all the rest. If you can see any interesting features at all, click &quot;features or disk.&quot; Just occasionally you might see something that isn't a galaxy at all - the long streak of a satellite, for example, or a image swamped by light from a bright star. If this happens, just click &quot;star or artifact&quot;. Click to see larger images."
+      text: "Ist die Galaxy strukturlos glatt und rund (nicht scheibenartig)?"
+      title: "Form der Galaxie"
+      help: "Mit dieser Frage sollen glatte, strukturlose Galaxien gefiltert werden. Wenn Sie interssante Strukturen sehen oder wenn die Galaxie scheibenförmig ist, klicken Sie auf &quot;Innere Struktur oder scheibenartige Form.&quot; Manchmal enthält das Bild keine Galaxie sondern zum Beispiel die Leuchtspur eines Satelliten. Es könnte auch durch das Licht eines hellen Sterns überbelichtet sein. In diesem Fall wählen Sie &quot;Stern oder Artefakt&quot;. Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'Smooth'
-        'a-1': 'Features or disk'
-        'a-2': 'Star or artifact'
+        'a-0': 'Glatt'
+        'a-1': 'Innere Struktur oder scheibenartige Form'
+        'a-2': 'Stern oder Artefakt'
     
     'sloan-1':
-      text: "Could this be a disk viewed edge-on?"
-      title: "Disk"
-      help: "Disc galaxies are very thin, so look different when viewed from the side. We're trying to find exactly edge-on galaxies with this question. If the galaxy looks needle-like, perhaps with a bulge at the centre, then click &quot;yes,&quot; otherwise choose &quot;no&quot; (even for galaxies almost edge-on). Click to see larger images."
+      text: "Könnte die Galaxie eine von der Seite gesehene Scheibe sein?"
+      title: "Scheibenform"
+      help: "Scheibenförmige Galaxien sind sehr dünn und sehen daher von der Seite anders aus als &quot;von oben.&quot; Wir wollen Scheibengalaxien finden, die genau von der Seite zu sehen sind. Falls die Galaxie wie eine Nadel aussieht, vielleicht mit einer Verdickung im Zentrum, klicken Sie &quot;Ja,&quot; ansonsten &quot;Nein&quot; (Auch wenn die Galaxie nur leicht geneigt zu sehen ist). Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'sloan-2':
-      text: "Is there any sign of a bar feature through the center of the galaxy?"
-      title: "Bar"
-      help: "Sometimes galaxies have a prominent straight &quot;bar&quot; running through their centre, and that's what we're looking for here. Click to see larger images."
+      text: "Gibt es eine Balkenstruktur im Zentrum der Galaxie?"
+      title: "Balken"
+      help: "Bei manchen Galaxien verläuft eine balkenartige Struktur durch das Zentrum. Diese Galaxien wollen wir identifizieren. Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'Bar'
-        'a-1': 'No bar'
+        'a-0': 'Balken'
+        'a-1': 'Kein Balken'
     
     'sloan-3':
-      text: "Is there any sign of a spiral arm pattern?"
-      title: "Spiral"
-      help: "Look carefully for spiral arms - remember they may be embedded in the disk and not that easy to see. Click to see larger images."
+      text: "Gibt es Anzeichen für Spiral-Arme?"
+      title: "Spiral-Arme"
+      help: "Achten Sie genau auf Spiral-Arme. Innerhalb der Galaxienscheibe sind sie oft schwer zu sehen. Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'Spiral'
-        'a-1': 'No spiral'
+        'a-0': 'Spiral-Arme'
+        'a-1': 'Keine Spiral-Arme'
     
     'sloan-4':
-      text: "How prominent is the central bulge, compared with the rest of the galaxy?"
-      title: "Bulge"
-      help: "It's not always easy to tell, but look at the centre of the galaxy for a round bulge of stars which may obscure any bar and the spiral arms in this central region. Click to see larger images."
+      text: "Wie dominant ist der Galaxienkern im Vergleich zur gesamten Galaxie?"
+      title: "Galaxienkern"
+      help: "Es ist nicht immer leicht zu erkennen, aber suchen Sie im Zentrum der Galaxie nach einer etwa kugelförmigen Sternenansammlung, die Balkenstrukturen oder Spiral-Arme im Zentrum verdecken könnte. Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'No bulge'
-        'a-1': 'Just noticeable'
-        'a-2': 'Obvious'
+        'a-0': 'Keine Verdickung'
+        'a-1': 'Kaum wahrnehmbar'
+        'a-2': 'Gut wahrnehmbar'
         'a-3': 'Dominant'
     
     'sloan-5':
-      text: "Is there anything odd?"
-      title: "Odd"
-      help: "We're looking for signs that the galaxy is merging, is disturbed, or has other unusual features. Click to see larger images."
+      text: "Gibt es andere auffällige Merkmale?"
+      title: "Sonstige Merkmale"
+      help: "Wir suchen nach Wechselwirkungen mit einer anderen Galaxie, Deformationen oder sonstigen auffäligen Merkmalen. Klicken Sie hier für größere Bilder."
       answers:
         'a-0': 'Yes'
         'a-1': 'No'
     
     'sloan-6':
-      text: "What are the odd features?"
-      title: "Odd"
+      text: "Welche besonderen Merkmale hat die Galaxie?"
+      title: "Sonstige Merkmale"
       help: ""
       answers:
-        'a-0': 'Done'
+        'a-0': 'Fertig'
       checkboxes:
         'x-0': 'Ring'
-        'x-1': 'Lens or arc'
-        'x-2': 'Disturbed'
-        'x-3': 'Irregular'
-        'x-4': 'Other'
-        'x-5': 'Merger'
-        'x-6': 'Dust lane'
+        'x-1': 'Gravitationslinse'
+        'x-2': 'Deformiert'
+        'x-3': 'Irreguläre Form'
+        'x-4': 'Sonstiges'
+        'x-5': 'Wechselwirkung mit anderer Galaxie'
+        'x-6': 'Staubstrukturen'
     
     'sloan-7':
-      text: "How rounded is it?"
-      title: "Round"
+      text: "Wie rund ist die Galaxie?"
+      title: "Rundung"
       help: ""
       answers:
-        'a-0': 'Completely round'
-        'a-1': 'In between'
-        'a-2': 'Cigar shaped'
+        'a-0': 'Kreisförmig'
+        'a-1': 'Dazwischen'
+        'a-2': 'Zigarrenförmig'
     
     'sloan-8':
-      text: "Does the galaxy have a bulge at its center? If so, what shape?"
-      title: "Bulge"
-      help: "Concentrate on the centre of the galaxy - if it has a smooth, uninterrupted, needle or lens-shape then click &quot;no bulge.&quot; Otherwise your options are &quot;rounded&quot; bulge or &quot;boxy&quot; (but boxy bulges are rare). Click to see larger images."
+      text: "Hat die Galaxie eine Verdickung im Zentrum? Falls ja, wie ist sie geformt?"
+      title: "Galaxienkern"
+      help: "Betrachten Sie das Zentrum der Galaxie. Falls die Galaxie glatt und strukturlos ist, nadel- or linsenförmig ist, wählen Sie &quot;Keine Verdickung.&quot; Ansonsten wählen Sie zwischen &quot;Rund&quot; oder &quot;Rechieckig&quot; (rechteckig erscheinende Galaxienkerne sind jedoch selten). Klicken Sie hier für größere Bilder."
       answers:
-        'a-0': 'Rounded'
-        'a-1': 'Boxy'
-        'a-2': 'No bulge'
+        'a-0': 'Rund'
+        'a-1': 'Rechteckig'
+        'a-2': 'Keine Verdickung'
     
     'sloan-9':
-      text: "How tightly wound do the spiral arms appear?"
-      title: "Spiral"
+      text: "Wie eng sind die Spiral-Arme gewunden?"
+      title: "Spiral-Arme"
       help: ""
       answers:
-        'a-0': 'Tight'
-        'a-1': 'Medium'
-        'a-2': 'Loose'
+        'a-0': 'Eng'
+        'a-1': 'Mäßig'
+        'a-2': 'Lose'
     
     'sloan-10':
-      text: "How many spiral arms are there?"
-      title: "Spiral"
+      text: "Wie viele Spiral-Arme hat die Galaxie?"
+      title: "Spiral-Arme"
       help: ""
       answers:
         'a-0': '1'
         'a-1': '2'
         'a-2': '3'
         'a-3': '4'
-        'a-4': 'More than 4'
-        'a-5': "Can't tell"
+        'a-4': 'Mehr als 4'
+        'a-5': "Nicht erkennbar"
     
     'sloan-11':
-      text: "Would you like to discuss this object?"
-      title: "Discuss"
-      help: "If you have any questions about this object, or think it may be interesting to others, or just have something to say, you can start a discussion on Talk by clicking &quot;Yes&quot;. Talk will open in a new window - just close it to come back to the classification page."
+      text: "Möchten Sie über dieses Objekt mit anderen Nutzern diskutieren?"
+      title: "Diskutieren"
+      help: "Falls sie Fragen zu diesem Objekt haben, falls es auch für andere interessant sein könnte, oder für sonstige Themen starten Sie eine neue Diskussion bei Galaxy Zoo Talk. Wählen Sie hierzu &quot;Ja&quot;. Es wird dann ein neues Fenster geöffnet. Schließen Sie das Fenster, um weitere Galaxien zu klassifizieren."
+      If you have any questions about this object, or think it may be interesting to others, or just have something to say, you can start a discussion on Talk by clicking &quot;Yes&quot;. Talk will open in a new window - just close it to come back to the classification page."
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'candels-0':
       text: "Is the galaxy simply smooth and rounded, with no sign of a disk?"
