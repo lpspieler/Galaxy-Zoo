@@ -321,10 +321,10 @@ module.exports =
   quiz_questions:
     set_1:
       question_0:
-        text: 'Where are elliptical galaxies more common?'
-        answer_0: 'inside clusters of galaxies'
-        answer_1: 'outside clusters of galaxies'
-        answer_2: 'they are equally prevalent everywhere'
+        text: 'Wo kommen elliptische Galaxien besonders h&auml;ufig vor?'
+        answer_0: 'In Galaxienclustern'
+        answer_1: 'Au&szlig;erhalb von Galaxienclustern'
+        answer_2: '&Uuml;berall etwa gleich h&auml;ufig'
       
       question_1:
         text: 'Star A is a red main sequence star and Star B is a blue main sequence star. Which will have a longer lifetime?'
