@@ -1,10 +1,10 @@
 module.exports =
   zooniverse:
     browser_check:
-      wont_work: "Um diese Website zu nutzen müssen Sie wahrscheinlich Ihren Browser updaten."
+      wont_work: "Um diese Website zu nutzen m&uuml;ssen Sie wahrscheinlich Ihren Browser updaten."
       recommended: 'Wir empfehlen <a href="http://www.mozilla.org/firefox/" target="_blank">Mozilla Firefox</a> oder <a href="http://www.google.com/chrome" target="_blank">Google Chrome</a>.'
       ie: '''Falls Sie <a href="http://www.microsoft.com/windows/internet-explorer/" target="_blank">Microsoft Internet Explorer</a> verwenden, installieren Sie bitte die aktuellste Version.'''
-      chrome_frame: '''Falls Sie die aktuellste Version des Internet Explorer nicht verwenden können, probieren Sie doch das <a href="http://google.com/chromeframe" target="_blank">Chrome Frame</a> Plugin!'''
+      chrome_frame: '''Falls Sie die aktuellste Version des Internet Explorer nicht verwenden k&ouml;nnen, probieren Sie doch das <a href="http://google.com/chromeframe" target="_blank">Chrome Frame</a> Plugin!'''
       dismiss: 'Ignorieren'
     
     login:
@@ -17,12 +17,12 @@ module.exports =
       title: 'Mit Ihrem Zooniverse-Account einloggen'
       sign_up: "Account erstellen"
       button: 'Einloggen'
-      progress: 'Einloggen läuft...'
+      progress: 'Einloggen l&auml;uft...'
     
     sign_up:
       title: 'Zooniverse-Account erstellen'
-      confirmation: 'Passwort bestätigen'
-      password_match: 'Passwort stimmt nicht überein'
+      confirmation: 'Passwort best&auml;tigen'
+      password_match: 'Passwort stimmt nicht &uuml;berein'
       sign_in: 'Account schon vorhanden? Hier einloggen!'
       email: 'E-Mail-Adresse:'
       privacy: 'Ich stimme den <a href="https://www.zooniverse.org/privacy" target="_blank">Datenschutzbestimmungen</a> zu.'
@@ -32,11 +32,11 @@ module.exports =
     sign_out:
       current: 'Eingeloggt als <strong class="current"></strong>.'
       button: 'Abmelden'
-      progress: 'Abmelden läuft...'
+      progress: 'Abmelden l&auml;uft...'
     
     top_bar:
       title: '<span id="app-name"></span> ist ein <a href="https://www.zooniverse.org">Zooniverse</a>-Projekt.'
-      description: 'Zooniverse ist ein Zusammenschluss web-basierter Citizen-Science-Projekte. Sie bauen auf die Mithilfe und die Fähigkeiten von freiwilligen Helfern, um Wissenschaftler bei der Verarbeitung großer Datenmengen zu unterstützen.'
+      description: 'Zooniverse ist ein Zusammenschluss web-basierter Citizen-Science-Projekte. Sie bauen auf die Mithilfe und die F&auml;higkeiten von freiwilligen Helfern, um Wissenschaftler bei der Verarbeitung gro&szlig;er Datenmengen zu unterst&auml;tzen.'
       greeting: 'Hallo, <strong>{user}</strong>. Willkommen bei {appName}!'
       projects:
         title: 'Unsere Projekte'
@@ -47,7 +47,7 @@ module.exports =
     'sloan-0':
       text: "Ist die Galaxy strukturlos glatt und rund (nicht scheibenartig)?"
       title: "Form der Galaxie"
-      help: "Mit dieser Frage sollen glatte, strukturlose Galaxien gefiltert werden. Wenn Sie interssante Strukturen sehen oder wenn die Galaxie scheibenförmig ist, klicken Sie auf &quot;Innere Struktur oder scheibenartige Form.&quot; Manchmal enthält das Bild keine Galaxie sondern zum Beispiel die Leuchtspur eines Satelliten. Es könnte auch durch das Licht eines hellen Sterns überbelichtet sein. In diesem Fall wählen Sie &quot;Stern oder Artefakt&quot;. Klicken Sie hier für größere Bilder."
+      help: "Mit dieser Frage sollen glatte, strukturlose Galaxien gefiltert werden. Wenn Sie interssante Strukturen sehen oder wenn die Galaxie scheibenf&ouml;rmig ist, klicken Sie auf &quot;Innere Struktur oder scheibenartige Form.&quot; Manchmal enth&auml;lt das Bild keine Galaxie sondern zum Beispiel die Leuchtspur eines Satelliten. Es k&ouml;nnte auch durch das Licht eines hellen Sterns &uuml;berbelichtet sein. In diesem Fall w&auml;hlen Sie &quot;Stern oder Artefakt&quot;. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
         'a-0': 'Glatt'
         'a-1': 'Innere Struktur oder scheibenartige Form'
@@ -56,7 +56,7 @@ module.exports =
     'sloan-1':
       text: "Könnte die Galaxie eine von der Seite gesehene Scheibe sein?"
       title: "Scheibenform"
-      help: "Scheibenförmige Galaxien sind sehr dünn und sehen daher von der Seite anders aus als &quot;von oben.&quot; Wir wollen Scheibengalaxien finden, die genau von der Seite zu sehen sind. Falls die Galaxie wie eine Nadel aussieht, vielleicht mit einer Verdickung im Zentrum, klicken Sie &quot;Ja,&quot; ansonsten &quot;Nein&quot; (Auch wenn die Galaxie nur leicht geneigt zu sehen ist). Klicken Sie hier für größere Bilder."
+      help: "Scheibenf&ouml;rmige Galaxien sind sehr dünn und sehen daher von der Seite anders aus als &quot;von oben.&quot; Wir wollen Scheibengalaxien finden, die genau von der Seite zu sehen sind. Falls die Galaxie wie eine Nadel aussieht, vielleicht mit einer Verdickung im Zentrum, klicken Sie &quot;Ja,&quot; ansonsten &quot;Nein&quot; (Auch wenn die Galaxie nur leicht geneigt zu sehen ist). Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern"
       answers:
         'a-0': 'Ja'
         'a-1': 'Nein'
@@ -64,7 +64,7 @@ module.exports =
     'sloan-2':
       text: "Gibt es eine Balkenstruktur im Zentrum der Galaxie?"
       title: "Balken"
-      help: "Bei manchen Galaxien verläuft eine balkenartige Struktur durch das Zentrum. Diese Galaxien wollen wir identifizieren. Klicken Sie hier für größere Bilder."
+      help: "Bei manchen Galaxien verl&auml;uft eine balkenartige Struktur durch das Zentrum. Diese Galaxien wollen wir identifizieren. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
         'a-0': 'Balken'
         'a-1': 'Kein Balken'
@@ -72,7 +72,7 @@ module.exports =
     'sloan-3':
       text: "Gibt es Anzeichen für Spiral-Arme?"
       title: "Spiral-Arme"
-      help: "Achten Sie genau auf Spiral-Arme. Innerhalb der Galaxienscheibe sind sie oft schwer zu sehen. Klicken Sie hier für größere Bilder."
+      help: "Achten Sie genau auf Spiral-Arme. Innerhalb der Galaxienscheibe sind sie oft schwer zu sehen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
         'a-0': 'Spiral-Arme'
         'a-1': 'Keine Spiral-Arme'
@@ -80,7 +80,7 @@ module.exports =
     'sloan-4':
       text: "Wie dominant ist der Galaxienkern im Vergleich zur gesamten Galaxie?"
       title: "Galaxienkern"
-      help: "Es ist nicht immer leicht zu erkennen, aber suchen Sie im Zentrum der Galaxie nach einer etwa kugelförmigen Sternenansammlung, die Balkenstrukturen oder Spiral-Arme im Zentrum verdecken könnte. Klicken Sie hier für größere Bilder."
+      help: "Es ist nicht immer leicht zu erkennen, aber suchen Sie im Zentrum der Galaxie nach einer etwa kugelf&ouml;rmigen Sternenansammlung, die Balkenstrukturen oder Spiral-Arme im Zentrum verdecken k&ouml;nnte. Klicken Sie auf die Beispielbilder zum Vergr&ouml;ßern."
       answers:
         'a-0': 'Keine Verdickung'
         'a-1': 'Kaum wahrnehmbar'
@@ -88,9 +88,9 @@ module.exports =
         'a-3': 'Dominant'
     
     'sloan-5':
-      text: "Gibt es andere auffällige Merkmale?"
+      text: "Gibt es andere auff&auml;llige Merkmale?"
       title: "Sonstige Merkmale"
-      help: "Wir suchen nach Wechselwirkungen mit einer anderen Galaxie, Deformationen oder sonstigen auffäligen Merkmalen. Klicken Sie hier für größere Bilder."
+      help: "Wir suchen nach Wechselwirkungen mit einer anderen Galaxie, Deformationen oder sonstigen auff&auml;lligen Merkmalen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
         'a-0': 'Yes'
         'a-1': 'No'
@@ -105,7 +105,7 @@ module.exports =
         'x-0': 'Ring'
         'x-1': 'Gravitationslinse'
         'x-2': 'Deformiert'
-        'x-3': 'Irreguläre Form'
+        'x-3': 'Irregul&auml;re Form'
         'x-4': 'Sonstiges'
         'x-5': 'Wechselwirkung mit anderer Galaxie'
         'x-6': 'Staubstrukturen'
@@ -115,14 +115,14 @@ module.exports =
       title: "Rundung"
       help: ""
       answers:
-        'a-0': 'Kreisförmig'
+        'a-0': 'Kreisf&auml;rmig'
         'a-1': 'Dazwischen'
         'a-2': 'Zigarrenförmig'
     
     'sloan-8':
       text: "Hat die Galaxie eine Verdickung im Zentrum? Falls ja, wie ist sie geformt?"
       title: "Galaxienkern"
-      help: "Betrachten Sie das Zentrum der Galaxie. Falls die Galaxie glatt und strukturlos ist, nadel- or linsenförmig ist, wählen Sie &quot;Keine Verdickung.&quot; Ansonsten wählen Sie zwischen &quot;Rund&quot; oder &quot;Rechieckig&quot; (rechteckig erscheinende Galaxienkerne sind jedoch selten). Klicken Sie hier für größere Bilder."
+      help: "Betrachten Sie das Zentrum der Galaxie. Falls die Galaxie glatt und strukturlos ist, nadel- or linsenf&auml;rmig ist, w&auml;hlen Sie &quot;Keine Verdickung.&quot; Ansonsten w&auml;hlen Sie zwischen &quot;Rund&quot; oder &quot;Rechieckig&quot; (rechteckig erscheinende Galaxienkerne sind jedoch selten). Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
         'a-0': 'Rund'
         'a-1': 'Rechteckig'
@@ -134,13 +134,59 @@ module.exports =
       help: ""
       answers:
         'a-0': 'Eng'
-        'a-1': 'Mäßig'
+        'a-1': 'M&auml;ßig'
         'a-2': 'Lose'
     
     'sloan-10':
       text: "Wie viele Spiral-Arme hat die Galaxie?"
-      title: "Spiral-Arme"
+      title: "Anzahl Spiral-Arme"
       help: ""
+      answers:
+        'a-0': '1'
+        'a-1': '2'
+        'a-2': '3'
+        'a-3': '4'
+        'a-4': 'Mehr als 4'
+        'a-5': 'Nicht erkennbar'
+    
+    'sloan-11':
+      text: "M&ouml;chten Sie über dieses Objekt mit anderen Nutzern diskutieren?"
+      title: "Diskutieren"
+      help: "Falls sie Fragen zu diesem Objekt haben, falls es auch für andere interessant sein k&ouml;nnte, oder für sonstige Themen starten Sie eine neue Diskussion bei Galaxy Zoo Talk. W&auml;hlen Sie hierzu &quot;Ja&quot;. Es wird dann ein neues Fenster ge&ouml;ffnet. Schließen Sie das Fenster, um weitere Galaxien zu klassifizieren."
+      answers:
+        'a-0': 'Ja'
+        'a-1': 'Nein'
+    
+    'candels-0':
+      text: "Ist die Galaxy strukturlos glatt und rund (nicht scheibenartig)?"
+      title: "Form der Galaxie"
+      help: "Mit dieser Frage sollen glatte, strukturlose Galaxien gefiltert werden. Wenn Sie interssante Strukturen sehen oder wenn die Galaxie scheibenf&ouml;rmig ist, klicken Sie auf &quot;Innere Struktur oder scheibenartige Form.&quot; Manchmal enth&auml;lt das Bild keine Galaxie sondern zum Beispiel die Leuchtspur eines Satelliten. Es k&ouml;nnte auch durch das Licht eines hellen Sterns &uuml;berbelichtet sein. In diesem Fall w&auml;hlen Sie &quot;Stern oder Artefakt&quot;. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
+      answers:
+        'a-0': 'Glatt'
+        'a-1': 'Innere Struktur oder scheibenartige Form'
+        'a-2': 'Stern oder Artefakt'
+    
+    'candels-1':
+      text: "Wie rund ist die Galaxie?"
+      title: "Rundung"
+      help: "Nicht alle Galaxien sind perfekt rund - schauen Sie sich die &auml;u&szlig;ere Form der Galaxie an und ordnen Sie sie einer der drei Kategorien zu. Falls mehrere Galaxien zu sehen sind, bewerten Sie bitte nur die Galaxie im Zentrum des Bildes. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
+      answers:
+        'a-0': 'Kreisf&ouml;rmig'
+        'a-1': 'Dazwischen'
+        'a-2': 'Zigarrenf&ouml;rmig'
+    
+    'candels-2':
+      text: "Sieht die Galaxie verklumpt aus?"
+      title: "Verklumpung"
+      help: "Einige Galxien bestehen fast nur aus hellen Klumpen. Wir suchen keine Galaxien mit wenigen kleinen Klumpen und anderen Strukturen, sondern solche, die haupts&auml;chlich helle Klumpen enthalten. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
+      answers:
+        'a-0': 'Ja'
+        'a-1': 'Nein'
+    
+    'candels-3':
+      text: "Wie viele Klumpen enth&auml;lt die Galaxie?"
+      title: "Anzahl Klumpen"
+      help: "Bitte zählen Sie die Klumpen. Falls es mehr als 4 Klumpen gibt, w&auml;hlen Sie einfach &quot;Mehr als 4.&quot;"
       answers:
         'a-0': '1'
         'a-1': '2'
@@ -149,174 +195,128 @@ module.exports =
         'a-4': 'Mehr als 4'
         'a-5': "Nicht erkennbar"
     
-    'sloan-11':
-      text: "Möchten Sie über dieses Objekt mit anderen Nutzern diskutieren?"
-      title: "Diskutieren"
-      help: "Falls sie Fragen zu diesem Objekt haben, falls es auch für andere interessant sein könnte, oder für sonstige Themen starten Sie eine neue Diskussion bei Galaxy Zoo Talk. Wählen Sie hierzu &quot;Ja&quot;. Es wird dann ein neues Fenster geöffnet. Schließen Sie das Fenster, um weitere Galaxien zu klassifizieren."
-      If you have any questions about this object, or think it may be interesting to others, or just have something to say, you can start a discussion on Talk by clicking &quot;Yes&quot;. Talk will open in a new window - just close it to come back to the classification page."
+    'candels-4':
+      text: "Sind die Klumpen als gerade Linie, als Kette oder als Gruppe angeordnet?"
+      title: "Position der Klumpen"
+      help: "Manchmal bilden die Klumpen ein Muster. In diesem Fall w&auml;hlen Sie bitte das entsprechende Symbol."
+      answers:
+        'a-0': 'Gerade Linie'
+        'a-1': 'Kette'
+        'a-2': 'Gruppe / Unregelm&auml;&szlig;ig'
+        'a-3': 'Spirale'
+    
+    'candels-5':
+      text: "Ist ein Klumpen deutlich heller als alle anderen?"
+      title: "Relative Helligkeit der Klumpen"
+      help: "Manchmal ist ein Klumpen besonders auff&auml;llig. Klicken Sie dann ja, ansonsten nein."
       answers:
         'a-0': 'Ja'
         'a-1': 'Nein'
     
-    'candels-0':
-      text: "Is the galaxy simply smooth and rounded, with no sign of a disk?"
-      title: "Shape"
-      help: "The aim here is to divide featureless galaxies from all the rest. If you can see any interesting features at all, click &quot;features or disk.&quot; Just occasionally you might see something that isn't a galaxy at all - the long streak of a satellite, for example, or a image swamped by light from a bright star. If this happens, just click &quot;star or artifact&quot;. Click to see larger images."
-      answers:
-        'a-0': 'Smooth'
-        'a-1': 'Features or disk'
-        'a-2': 'Star or artifact'
-    
-    'candels-1':
-      text: "How rounded is it?"
-      title: "Round"
-      help: "Not all galaxies are perfectly round - just look at the overall shape and put it in one of these three categories. If there's more than one galaxy in the field, remember always to concentrate on the one in the centre. Click to see larger images."
-      answers:
-        'a-0': 'Completely round'
-        'a-1': 'In between'
-        'a-2': 'Cigar shaped'
-    
-    'candels-2':
-      text: "Does the galaxy have a mostly clumpy appearance?"
-      title: "Clumps"
-      help: "Some galaxies are nothing but bright clumps. We don't mean those that have other features with a few small clusters of stars, but rather those that are made up mostly of bright clumps. Click to see larger images."
-      answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
-    
-    'candels-3':
-      text: "How many clumps are there?"
-      title: "Clumps"
-      help: "Count the clumps! If there are more than 4, than don't worry about it - just click &quot;more than 4.&quot;"
-      answers:
-        'a-0': '1'
-        'a-1': '2'
-        'a-2': '3'
-        'a-3': '4'
-        'a-4': 'More than 4'
-        'a-5': "Can't tell"
-    
-    'candels-4':
-      text: "Do the clumps appear in a straight line, a chain, or a cluster?"
-      title: "Clumps"
-      help: "Sometimes the clumps appear in a regular pattern - if so, then click the appropriate symbol."
-      answers:
-        'a-0': 'Straight Line'
-        'a-1': 'Chain'
-        'a-2': 'Cluster / Irregular'
-        'a-3': 'Spiral'
-    
-    'candels-5':
-      text: "Is there one clump which is clearly brighter than the others?"
-      title: "Clumps"
-      help: "Sometimes one clump dominates the scene. If so, click yes, otherwise, no."
-      answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
-    
     'candels-6':
-      text: "Is the brightest clump central to the galaxy?"
-      title: "Clumps"
-      help: "For very clumpy galaxies it may be difficult to tell, but make your best guess whether that brightest clump lies at the centre of the system or not."
+      text: "Befindet sich der hellste Klumpen im Zentrum der Galaxie?"
+      title: "Posiion des hellsten Klumpens"
+      help: "Bei Galaxien mit starker Verklumpung kann es schwer zu erkennen sein. Aber sch&auml;tzen Sie so gut wie m&ouml;glich ab, ob der hellste Klumpen im Zentrum liegt oder nicht."
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'candels-7':
-      text: "Does the galaxy appear symmetrical?"
-      title: "Symmetry"
-      help: "Are both halves of the galaxy the same? Or is one side disrupted or different in some way?"
+      text: "Wirkt die Galaxie symmetrisch?"
+      title: "Symmetrie"
+      help: "Sehen beide H&auml;ften der Galaxie gleich aus? Oder ist eine Seite verformt oder sieht sonst irgendwie anders aus als der andere Teil der Galaxie?"
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'candels-8':
-      text: "Do the clumps appear to be embedded within a larger object?"
-      title: "Clumps"
-      help: "Look carefully for faint background light surrounding the clumps - are they embedded in a visible galaxy?"
+      text: "Liegen die Klumpen gemeinsam in einer gr&ouml;&szlig;eren Struktur?"
+      title: "Verklumpung"
+      help: "Suchen Sie sorgf&auml;tig nach Hintergrundlicht um die Klumpen. Sind diese in eine sichtbare Galaxie eingebettet?"
       answers:
         'a-0': 'Yes'
         'a-1': 'No'
     
     'candels-9':
-      text: "Could this be a disk viewed edge-on?"
-      title: "Disk"
-      help: "Disc galaxies are very thin, so look different when viewed from the side. We're trying to find exactly edge-on galaxies with this question. If the galaxy looks needle-like, perhaps with a bulge at the centre, then click &quot;yes,&quot; otherwise choose &quot;no&quot; (even for galaxies almost edge-on). Click to see larger images."
+      text: "Könnte die Galaxie eine von der Seite gesehene Scheibe sein?"
+      title: "Scheibenform"
+      help: "Scheibenf&ouml;rmige Galaxien sind sehr dünn und sehen daher von der Seite anders aus als &quot;von oben.&quot; Wir wollen Scheibengalaxien finden, die genau von der Seite zu sehen sind. Falls die Galaxie wie eine Nadel aussieht, vielleicht mit einer Verdickung im Zentrum, klicken Sie &quot;Ja,&quot; ansonsten &quot;Nein&quot; (Auch wenn die Galaxie nur leicht geneigt zu sehen ist). Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern"
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'candels-10':
-      text: "Does the galaxy have a bulge at its centre?"
-      title: "Bulge"
-      help: "Look at the centre of the galaxy - is there any sign of a bulge of stars sticking out above and below the otherwise smooth shape? If so, click yes."
+      text: "Hat die Galaxie eine Verdickung im Zentrum?"
+      title: "Galaxienkern"
+      help: "Betrachten Sie das Zentrum der Galaxie. Gibt es eine Ansammlung von Sternen, die &uuml;ber und unter die ansonsten glatte Form hinausragt? In diesem Fall w&auml;hlen Sie ja."
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
     
     'candels-11':
-      text: "Is there any sign of a bar feature through the centre of the galaxy?"
-      title: "Bar"
-      help: "Sometimes galaxies have a prominent straight &quot;bar&quot; running through their centre, and that's what we're looking for here. Click to see larger images."
+      text: "Gibt es eine Balkenstruktur im Zentrum der Galaxie?"
+      title: "Balken"
+      help: "Bei manchen Galaxien verl&auml;uft eine balkenartige Struktur durch das Zentrum. Diese Galaxien wollen wir identifizieren. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
-        'a-0': 'Bar'
-        'a-1': 'No bar'
+        'a-0': 'Balken'
+        'a-1': 'Kein Balken'
     
     'candels-12':
-      text: "Is there any sign of a spiral arm pattern?"
-      title: "Spiral"
-      help: "Look carefully for spiral arms - remember they may be embedded in the disk and not that easy to see. Click to see larger images."
+      text: "Gibt es Anzeichen für Spiral-Arme?"
+      title: "Spiral-Arme"
+      help: "Achten Sie genau auf Spiral-Arme. Innerhalb der Galaxienscheibe sind sie oft schwer zu sehen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
-        'a-0': 'Spiral'
-        'a-1': 'No spiral'
+        'a-0': 'Spiral-Arme'
+        'a-1': 'Keine Spiral-Arme'
     
     'candels-13':
-      text: "How tightly wound do the spiral arms appear?"
-      title: "Spiral"
-      help: "Astronomers classify galaxies by how tight their arms are - you might find it easiest to see closest to the centre. Click to see larger images."
+      text: "Wie eng sind die Spiral-Arme gewunden?"
+      title: "Spiral-Arme"
+      help: "Astronomen klassifizieren Galaxien danach, wie eng ihre Spiralarme gewunden sind. Dies l&auml;sst sich wahrscheinlich am besten nah am Galaxienzentrum beurteilen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;&szlig;ern."
       answers:
-        'a-0': 'Tight'
-        'a-1': 'Medium'
-        'a-2': 'Loose'
+        'a-0': 'Eng'
+        'a-1': 'M&auml;ßig'
+        'a-2': 'Lose'
     
     'candels-14':
-      text: "How many spiral arms are there?"
-      title: "Spiral"
-      help: "Some spiral galaxies are rather complicated, so don't be afraid to use the &quot;more than 4&quot; or &quot;can't tell&quot; buttons here."
+      text: "Wie viele Spiral-Arme hat die Galaxie?"
+      title: "Anzahl Spiral-Arme"
+      help: "Manche Spiralgalaxien sind recht komplex. Trauen Sie sich ruhig, &quot;Mehr als 4&quot; oder &quot;Nicht erkennbar&quot; zu w&auml;hlen."
       answers:
         'a-0': '1'
         'a-1': '2'
         'a-2': '3'
         'a-3': '4'
-        'a-4': 'More than 4'
-        'a-5': "Can't tell"
+        'a-4': 'Mehr als 4'
+        'a-5': 'Nicht erkennbar'
     
     'candels-15':
-      text: "How prominent is the central bulge, compared with the rest of the galaxy?"
-      title: "Bulge"
-      help: "It's not always easy to tell, but look at the centre of the galaxy for a round bulge of stars which may obscure any bar and the spiral arms in this central region. Click to see larger images."
+      text: "Wie dominant ist der Galaxienkern im Vergleich zur gesamten Galaxie?"
+      title: "Galaxienkern"
+      help: "Es ist nicht immer leicht zu erkennen, aber suchen Sie im Zentrum der Galaxie nach einer etwa kugelf&ouml;rmigen Sternenansammlung, die Balkenstrukturen oder Spiral-Arme im Zentrum verdecken k&ouml;nnte. Klicken Sie auf die Beispielbilder zum Vergr&ouml;ßern."
       answers:
-        'a-0': 'No bulge'
-        'a-1': 'Obvious'
+        'a-0': 'Keine Verdickung'
+        'a-1': 'Gut wahrnehmbar'
         'a-2': 'Dominant'
     
     'candels-16':
-      text: "Is the galaxy currently merging or is there any sign of tidal debris?"
-      title: "Merger"
+      text: "Verschmilzt die Galaxie mit einer anderen? Gibt es Anzeichen f&uuml;r &Uuml;berreste einer Verschmelzung?"
+      title: "Interaktion von Galaxien"
       help: "Now you can look at the larger picture - if the galaxy is colliding with another, click &quot;merger.&quot; If there's no visible second system, but long streams of stars or gas are visible then click &quot;tidal debris.&quot; &quot;Both&quot; and &quot;Neither&quot; are your other options. Click to see larger images."
+      help: "Betrachten Sie nun die Umgebung der Galaxie. Wenn sie mit einer anderen Galaxie kollidiert, w&auml;hlen Sie &quot;Verschmelzung.&quot; Falls Sie keine andere Galaxie sehen, aber lange Bahnen von Sternen oder Gas, clicken Sie &quot;&Uuml;berreste.&quot; &quot;Beides&quot; und &quot;Keines von beidem&quot; sind die anderen Optionen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;ßern."
       answers:
-        'a-0': 'Merging'
-        'a-1': 'Tidal debris'
-        'a-2': 'Both'
-        'a-3': 'Neither'
+        'a-0': 'Verschmelzung'
+        'a-1': '&Uuml;berreste einer Verschmelzung'
+        'a-2': 'Beides'
+        'a-3': 'Keines von beidem'
     
     'candels-17':
-      text: "Would you like to discuss this object?"
-      title: "Discuss"
-      help: "If you have any questions about this object, or think it may be interesting to others, or just have something to say, you can start a discussion on Talk by clicking &quot;Yes&quot;. Talk will open in a new window - just close it to come back to the classification page."
+      text: "M&ouml;chten Sie über dieses Objekt mit anderen Nutzern diskutieren?"
+      title: "Diskutieren"
+      help: "Falls sie Fragen zu diesem Objekt haben, falls es auch für andere interessant sein k&ouml;nnte, oder für sonstige Themen starten Sie eine neue Diskussion bei Galaxy Zoo Talk. W&auml;hlen Sie hierzu &quot;Ja&quot;. Es wird dann ein neues Fenster ge&ouml;ffnet. Schließen Sie das Fenster, um weitere Galaxien zu klassifizieren."
       answers:
-        'a-0': 'Yes'
-        'a-1': 'No'
+        'a-0': 'Ja'
+        'a-1': 'Nein'
   
   quiz_questions:
     set_1:
