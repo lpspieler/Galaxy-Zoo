@@ -302,7 +302,6 @@ module.exports =
     'candels-16':
       text: "Verschmilzt die Galaxie mit einer anderen? Gibt es Anzeichen f&uuml;r &Uuml;berreste einer Verschmelzung?"
       title: "Interaktion von Galaxien"
-      help: "Now you can look at the larger picture - if the galaxy is colliding with another, click &quot;merger.&quot; If there's no visible second system, but long streams of stars or gas are visible then click &quot;tidal debris.&quot; &quot;Both&quot; and &quot;Neither&quot; are your other options. Click to see larger images."
       help: "Betrachten Sie nun die Umgebung der Galaxie. Wenn sie mit einer anderen Galaxie kollidiert, w&auml;hlen Sie &quot;Verschmelzung.&quot; Falls Sie keine andere Galaxie sehen, aber lange Bahnen von Sternen oder Gas, clicken Sie &quot;&Uuml;berreste.&quot; &quot;Beides&quot; und &quot;Keines von beidem&quot; sind die anderen Optionen. Klicken Sie auf die Beispielbilder zum Vergr&ouml;ßern."
       answers:
         'a-0': 'Verschmelzung'
@@ -328,32 +327,33 @@ module.exports =
       
       question_1:
         text: 'Star A is a red main sequence star and Star B is a blue main sequence star. Which will have a longer lifetime?'
-        answer_0: 'Star A'
-        answer_1: 'Star B'
-        answer_2: 'They will have the same lifetime.'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Stern A ist ein roter Hauptreihenstern, Stern B ein blauer Hauptreihenstern. Welcher Stern hat eine l&auml;ngere Lebensdauer?'
+        answer_0: 'Stern A'
+        answer_1: 'Stern B'
+        answer_2: 'Sie haben die gleiche Lebensdauer.'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_2:
-        text: 'How does the Sun produce the energy that heats our planet?'
-        answer_0: 'The gases inside our Sun are burning and producing energy.'
-        answer_1: 'Atoms are combined into heavier atoms, giving off energy.'
-        answer_2: 'Gas inside the Sun heats up when compressed, giving off energy.'
-        answer_3: 'Atoms are broken apart into lighter atoms, giving off energy.'
-        answer_4: 'The core of the Sun has radioactive atoms that decay, giving off energy.'
+        text: 'Wie erzeugt die Sonne die Energie, die unseren Planeten aufheizt?'
+        answer_0: 'Die Gase im Inneren der Sonne verbrennen und produzieren Energie.'
+        answer_1: 'Atome werden zu schwereren Atomen verbunden und geben dabei Energie ab.'
+        answer_2: 'Gas im Inneren der Sonne wird komprimiert, erhitzt sich, und gibt Energie ab.'
+        answer_3: 'Atome werden in leichtere Atome aufgespalten und geben dabei Energie ab.'
+        answer_4: 'Der Sonnenkern enth&auml;lt radioaktive Atome. Diese zerfallen und geben dabei Energie ab.'
       
       question_3:
-        text: 'The diagram represents three different waves of light emitted at the same time by the Sun. Which wave will arrive first at a satellite orbiting just above Earth’s atmosphere?'
-        answer_0: 'Wave 1'
-        answer_1: 'Wave 2'
-        answer_2: 'Wave 3'
-        answer_3: 'All three waves arrive at the same time.'
+        text: 'In diesem Diagram sehen Sie drei Lichtwellen, die zur gleichen Zeit von der Sonne ausgesendet werden. Welche Lichtwelle wird zuerst einen Satelliten im Erdorbit knapp oberhalb der Grenze der Erdathmosph&auml;re erreichen?'
+        answer_0: 'Lichtwelle 1'
+        answer_1: 'Lichtwelle 2'
+        answer_2: 'Lichtwelle 3'
+        answer_3: 'Alle drei Lichtwellen kommen zur selben Zeit an.'
       
       question_4:
-        text: 'A galaxy that appears to have very few bright, blue stars, likely:'
-        answer_0: 'never had blue stars in the galaxy.'
-        answer_1: 'had more blue stars long ago that are no longer present.'
-        answer_2: 'has been around long enough for the blue stars to have evolved into red main sequence stars.'
-        answer_3: 'never contained enough gas to have blue stars develop.'
+        text: 'Eine Galaxie enth&auml;lt sehr wenige helle, blaue Sterne. Wahrscheinlich gilt:'
+        answer_0: 'Die Galaxie enthielt nie viele blaue Sterne.'
+        answer_1: 'Die Galaxie enthielt in der Vergangenheit mehr blaue Sterne, die nun nicht mehr vorhanden sind.'
+        answer_2: 'Die Galaxie existiert schon lange genug, dass sich die blauen Sterne zu roten Hauptreihensternen entwickeln konnten.'
+        answer_3: 'Die Galaxie enthielt nie genug Gas, aus dem sich blaue Sterne bilden konnten.'
     
     set_2:
       question_0:
