@@ -404,45 +404,46 @@ module.exports =
     
     set_3:
       question_0:
-        text: 'Which of the following has the most energy?'
-        answer_0: 'x-rays'
-        answer_1: 'ultraviolet light'
-        answer_2: 'gamma rays'
-        answer_3: 'They all have the same energy.'
+        text: 'Welche Strahlung hat die meiste Energie?'
+        answer_0: 'R&ouml;ntgenstrahlung'
+        answer_1: 'Ultraviolettes Licht'
+        answer_2: 'Gammastrahlung'
+        answer_3: 'Alle haben gleich viel Energie.'
       
       question_1:
-        text: 'Which of the following is true of all main sequence stars that appear red to us on Earth:'
-        answer_0: 'They are hotter than blue main sequence stars.'
-        answer_1: 'They will live longer than very bright main sequence stars.'
-        answer_2: 'They are moving toward Earth.'
-        answer_3: 'They are moving away from Earth.'
+        text: 'Was gilt für alle Hauptreihensterne, die von der Erde aus gesehen rot erscheinen:'
+        answer_0: 'Sie sind hei&szlig;er als blaue Hauptreihensterne.'
+        answer_1: 'Sie haben eine l&auml;ngere Lebensdauer als sehr helle Hauptreihensterne.'
+        answer_2: 'Sie bewegen sich auf die Erde zu.'
+        answer_3: 'Sie bewegen sich von der Erde weg.'
       
       question_2:
-        text: 'Answer the following question using the image, which represents the Milky Way Galaxy.  Approximately how far is it from the white circle to the center of the Milky Way Galaxy?'
-        answer_0: '1,000 light years'
-        answer_1: '10,000 light years'
-        answer_2: '25,000 light years'
-        answer_3: '100,000 light years'
+        text: 'Beantworten Sie die folgende Frage mit Hilfe des Bildes, das die Milchstra&szlig;e darstellt.  Wie weit ist es ungef&auml;hr vom wei&szlig;en Kreis bis zum Zentrum der Milchstra&szlig;e?'
+        answer_0: '1.000 Lichtjahre'
+        answer_1: '10.000 Lichtjahre'
+        answer_2: '25.000 Lichtjahre'
+        answer_3: '100.000 Lichtjahre'
       
       question_3:
-        text: 'The idea of dark matter is provided to explain which one of the following?'
-        answer_0: 'The location and shape of the arms in the disk of spiral galaxies.'
-        answer_1: 'The location of the maximum in the distribution of globular clusters of stars in the halo of the galaxy.'
-        answer_2: 'The nearly uniform rotation speeds of objects in the Milky Way Galaxy.'
-        answer_3: 'That a spiral density wave moves through the disk of spiral galaxies triggering star formation.'
+        text: 'Was kann man mit dem Konzept der dunklen Materie erkl&auml;ren?'
+        answer_0: 'Die Position und &auml;u&szlig;ere Form der Arme in den Scheibe von Spiralgalaxien.'
+        answer_1: 'Den Ort der gr&ouml;&szlig;ten Dichte von Kugelsternhaufen im Halo einer Galaxie.'
+        answer_2: 'Die fast gleichen Umlaufgeschwindigkeiten von Objekten in der Milchstra&szlig;e.'
+        answer_3: 'Die Tatsache, dass in Spiralgalaxien eine Dichtewelle durch die Galaxienscheibe wandert und die Bildung neuer Sterne ausl&auml;st.'
       
       question_4:
-        text: 'Why are the arms of spiral galaxies blue?'
-        answer_0: 'The arms are usually moving toward us, so they are Doppler shifted to blue wavelengths.'
-        answer_1: 'The gas and dust in the arms filter out all but the blue light from stars in the arms.'
-        answer_2: 'Active star formation is occurring in the spiral arms.'
-        answer_3: 'Most of the stars of the disk are in the arms of the galaxy and their light makes it appear blue.'
+        text: 'Weshalb sind die Arme von Spiralgaxien blau?'
+        answer_0: 'Die Spiralarme bewegen sich normalerweise auf uns zu, daher ist ihr Licht ins Blaue verschoben.'
+        answer_1: 'Gas und Staub in den Spiralarmen filtern alles Licht bis auf das blaue Licht von Sternen in den Spiralarmen.'
+        answer_2: 'In den Spiralarmen l&auml;ft die Entstehung neuer Sterne.'
+        answer_3: 'Die meisten Sterne der Galaxienscheibe befinden sich in den Spiralarmen. Ihr Licht l&auml;sst die Galaxie blau erscheinen.'
       
       question_5:
         text: "In each figure, two pairs of rocky asteroids are shown along with their masses (m), and the distance (d) between each pair of asteroids. Which of the following correctly describes how the gravitational force exerted BY Asteroid A on its 'partner' asteroid compares to the gravitational force exerted BY Asteroid B on its 'partner' asteroid."
-        answer_0: 'The force of A on its partner is greater than the force of B on its partner.'
-        answer_1: 'The force of B on its partner is greater than the force of A on its partner.'
-        answer_2: 'The force of A on its partner is equal to the force of B on its partner.'
+        text: "In jeder dieser Bilder sind je zwei Gesteinsasteroiden zu sehen mit ihren Massen (m) dem Abstand (d) zwischen den beiden Asteroiden. Welche der folgenden Aussagen gibt korrekt das Verh&auml;tnis der von Asteroid A auf Asteroid B ausge&uuml;bten Gravitationskraft sowie der von B auf A ausge&uuml;bten Gravitationskraft wider?"
+        answer_0: 'Die von A auf B ausge&uuml;bte Kraft ist gr&ouml;&szlig;er als die von B auf A ausge&uuml;bte Kraft.'
+        answer_1: 'Die von B auf A ausge&uuml;bte Kraft ist gr&ouml;&szlig;er als die von A auf B ausge&uuml;bte Kraft.'
+        answer_2: 'Die von A auf B ausge&uuml;bte Kraft ist genauso gro&szlig; wie die von B auf A ausge&uuml;bte Kraft.'
     
     set_4:
       question_0:
