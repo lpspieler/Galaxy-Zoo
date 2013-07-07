@@ -357,50 +357,50 @@ module.exports =
     
     set_2:
       question_0:
-        text: 'Which is true of Doppler shifted light from galaxies and stars?'
-        answer_0: 'If their light is redshifted, that means the objects are moving towards you.'
-        answer_1: 'If their light is blueshifted, that means the objects are close to you.'
-        answer_2: 'If their light is redshifted, that means the objects are moving quickly.'
-        answer_3: 'If their light is blueshifted, that means the objects will appear blue.'
-        answer_4: 'None of the above is true.'
+        text: 'Welchee der folgenden Aussagen &uuml;ber die Dopplerverschiebung des von Galaxien und Sternen ausgesendeten Lichtes stimmen?'
+        answer_0: 'Objekte, deren Licht ins Rote verschoben sind, bewegen sich auf uns zu.'
+        answer_1: 'Objekte, deren Licht ins Blaue verschoben sind, befinden sich in userer N&auml;he.'
+        answer_2: 'Objekte, deren Licht ins Rote verschoben sind, bewegen sich besonders schnell.'
+        answer_3: 'Objekte, deren Licht ins Blaue verschoben sind, sehen blau aus.'
+        answer_4: 'Keine der Aussagen stimmt.'
       
       question_1:
-        text: 'A main sequence star with a long lifetime will be ______ than a main sequence star with a short lifetime.'
-        answer_0: 'bluer'
-        answer_1: 'emitting light at shorter wavelengths'
-        answer_2: 'larger'
-        answer_3: 'more luminous'
-        answer_4: 'less massive'
+        text: 'Ein Hauptreihenstern mit einer langen Lebensdauer ______ als ein Hauptreihenstern mit einer kurzen Lebensdauer.'
+        answer_0: 'wirkt blauer'
+        answer_1: 'gibt Licht mit einer k&uuml;rzeren Wellenl&auml;nge ab'
+        answer_2: 'ist gr&ouml;&szlig;er'
+        answer_3: 'ist heller'
+        answer_4: 'hat eine geringere Masse'
       
       question_2:
-        text: 'The three spectral curves shown in the graphs illustrate the energy output versus wavelength for three Stars A, B, and C. Which of the stars has the highest temperature?'
-        answer_0: 'Star A'
-        answer_1: 'Star B'
-        answer_2: 'Star C'
-        answer_3: 'All three stars have the same temperature.'
-        answer_4: 'There is insufficient information to determine this.'
+        text: 'Diese Spektralkurven zeigen f&uuml;r drei Sterne A, B, C, wieviel Energie sie in jeder Wellenl&auml;nge abgeben.sus wavelength for three Stars A, B, and C. Welcher Stern hat die h&ouml;chste Temperatur?'
+        answer_0: 'Stern A'
+        answer_1: 'Stern B'
+        answer_2: 'Stern C'
+        answer_3: 'Alle drei Sterne haben die selbe Temperatur.'
+        answer_4: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_3:
-        text: 'Which of the following correctly lists objects from largest to smallest?'
-        answer_0: 'Star, Solar System, Globular Cluster, Galaxy, Local Group'
-        answer_1: 'Globular Cluster, Local Group, Galaxy, Star, Solar System'
-        answer_2: 'Galaxy, Local Group, Solar System, Globular Cluster, Star'
-        answer_3: 'Local Group, Galaxy, Globular Cluster, Solar System, Star'
+        text: 'Welche der folgenden Listen ist korrekt vom gr&ouml;&szlig;ten Objekt zum kleinsten sortiert?'
+        answer_0: 'Stern, Sonnensystem, Kugelsternhaufen, Galaxie, Lokale Gruppe'
+        answer_1: 'Kugelsternhaufen, Lokale Gruppe, Galaxie, Stern, Sonnensystem'
+        answer_2: 'Galaxie, Lokale Gruppe, Sonnensystem, Kugelsternhaufen, Stern'
+        answer_3: 'Lokale Gruppe, Galaxie, Kugelsternhaufen, Sonnensystem, Stern'
       
       question_4:
-        text: 'Which of the following components of an elliptical galaxy has the most mass?'
-        answer_0: 'Stars'
-        answer_1: 'Gas and Dust'
-        answer_2: 'Dark Matter'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Welcher der folgenden Bestandteile einer elliptischen Galaxie hat die gr&ouml;&szlig;te Masse?'
+        answer_0: 'Sterne'
+        answer_1: 'Gas und Staub'
+        answer_2: 'Dunkle Materie'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_5:
-        text: 'How many of the four galaxies shown could be a Spiral Galaxy?'
-        answer_0: 'One'
-        answer_1: 'Two'
-        answer_2: 'Three'
-        answer_3: 'Four'
-        answer_4: 'There is insufficient information to determine this.'
+        text: 'Wie viele der vier gezeigten Galaxien k&ouml;nnte eine Spiralgalaxie sein?'
+        answer_0: 'Eine'
+        answer_1: 'Zwei'
+        answer_2: 'Drei'
+        answer_3: 'Vier'
+        answer_4: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
     
     set_3:
       question_0:
