@@ -447,28 +447,29 @@ module.exports =
     
     set_4:
       question_0:
-        text: 'Which of the following has the highest speed?'
-        answer_0: 'x-rays'
-        answer_1: 'ultraviolet light'
-        answer_2: 'gamma rays'
-        answer_3: 'They all have the same speed.'
+        text: 'Welche Strahlung hat die h&ouml;chste Geschwindigkeit?'
+        answer_0: 'R&ouml;ntgenstrahlung'
+        answer_1: 'Ultraviolettes Licht'
+        answer_2: 'Gammastrahlung'
+        answer_3: 'Alle haben die gleiche Geschwindigkeit.'
       
       question_1:
         text: 'Which of the following determines most characteristics and future events of a star’s existence?'
-        answer_0: 'surface temperature'
-        answer_1: 'size (diameter)'
-        answer_2: 'color'
-        answer_3: 'composition (type of atoms)'
-        answer_4: 'mass'
+        text: 'Wodurch werden die meisten Eigenschaften und die zuk&uuml;nftige Entwicklung eines Sterns bestimmt?'
+        answer_0: 'Oberfl&auml;chentemperatur'
+        answer_1: 'Gr&ouml;&szlig;e (Durchmesser)'
+        answer_2: 'Farbe'
+        answer_3: 'Zusammensetzung aus chemischen Elementen'
+        answer_4: 'Masse'
       
       question_2:
-        text: 'Here are possible plots of how fast objects orbit the center of our galaxy versus their distance from the center. Which one graph best represents how objects actually move in our galaxy?'
-        answer_0: 'Graph A'
-        answer_1: 'Graph B'
-        answer_2: 'Graph C'
-        answer_3: 'Graph D'
-        answer_4: 'Graph E'
-        answer_5: 'Graph F'
+        text: 'Diese Plots sollen die Umlaufgeschwindigkeit von Objekten in unserer Galaxie in Abh&auml;ngigkeit von ihrem Abstand vom Zentrum darstellen. Welcher Plot gibt die wahren Verh&auml;ltnisse am besten wider?'
+        answer_0: 'Plot A'
+        answer_1: 'Plot B'
+        answer_2: 'Plot C'
+        answer_3: 'Plot D'
+        answer_4: 'Plot E'
+        answer_5: 'Plot F'
       
       question_3:
         text: 'Star A is a red main sequence star and Star B is a blue main sequence star. If both stars appear to be the same brightness, which one is closer to Earth?'
