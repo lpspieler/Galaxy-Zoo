@@ -499,7 +499,7 @@ module.exports =
         answer_4: 'Keines der drei ist eine Art von Licht.'
       
       question_1:
-        text: 'Ein Zusammensto&szlig; zweier Galaxien erzeugt'
+        text: 'Ein Zusammensto&szlig; zweier Spiralgalaxien erzeugt'
         answer_0: 'eine Spiralgalaxie.'
         answer_1: 'eine elliptische Galaxie.'
         answer_2: 'entweder eine Spiralgalaxie oder eine elliptische Galaxie.'
