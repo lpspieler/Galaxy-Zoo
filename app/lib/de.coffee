@@ -326,7 +326,6 @@ module.exports =
         answer_2: '&Uuml;berall etwa gleich h&auml;ufig'
       
       question_1:
-        text: 'Star A is a red main sequence star and Star B is a blue main sequence star. Which will have a longer lifetime?'
         text: 'Stern A ist ein roter Hauptreihenstern, Stern B ein blauer Hauptreihenstern. Welcher Stern hat eine l&auml;ngere Lebensdauer?'
         answer_0: 'Stern A'
         answer_1: 'Stern B'
@@ -395,7 +394,7 @@ module.exports =
         answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_5:
-        text: 'Wie viele der vier gezeigten Galaxien k&ouml;nnte eine Spiralgalaxie sein?'
+        text: 'Wie viele der vier gezeigten Galaxien k&ouml;nnten Spiralgalaxien sein?'
         answer_0: 'Eine'
         answer_1: 'Zwei'
         answer_2: 'Drei'
@@ -439,7 +438,6 @@ module.exports =
         answer_3: 'Die meisten Sterne der Galaxienscheibe befinden sich in den Spiralarmen. Ihr Licht l&auml;sst die Galaxie blau erscheinen.'
       
       question_5:
-        text: "In each figure, two pairs of rocky asteroids are shown along with their masses (m), and the distance (d) between each pair of asteroids. Which of the following correctly describes how the gravitational force exerted BY Asteroid A on its 'partner' asteroid compares to the gravitational force exerted BY Asteroid B on its 'partner' asteroid."
         text: "In jeder dieser Bilder sind je zwei Gesteinsasteroiden zu sehen mit ihren Massen (m) dem Abstand (d) zwischen den beiden Asteroiden. Welche der folgenden Aussagen gibt korrekt das Verh&auml;tnis der von Asteroid A auf Asteroid B ausge&uuml;bten Gravitationskraft sowie der von B auf A ausge&uuml;bten Gravitationskraft wider?"
         answer_0: 'Die von A auf B ausge&uuml;bte Kraft ist gr&ouml;&szlig;er als die von B auf A ausge&uuml;bte Kraft.'
         answer_1: 'Die von B auf A ausge&uuml;bte Kraft ist gr&ouml;&szlig;er als die von A auf B ausge&uuml;bte Kraft.'
@@ -454,7 +452,6 @@ module.exports =
         answer_3: 'Alle haben die gleiche Geschwindigkeit.'
       
       question_1:
-        text: 'Which of the following determines most characteristics and future events of a star’s existence?'
         text: 'Wodurch werden die meisten Eigenschaften und die zuk&uuml;nftige Entwicklung eines Sterns bestimmt?'
         answer_0: 'Oberfl&auml;chentemperatur'
         answer_1: 'Gr&ouml;&szlig;e (Durchmesser)'
@@ -472,41 +469,41 @@ module.exports =
         answer_5: 'Plot F'
       
       question_3:
-        text: 'Star A is a red main sequence star and Star B is a blue main sequence star. If both stars appear to be the same brightness, which one is closer to Earth?'
-        answer_0: 'Star A'
-        answer_1: 'Star B'
-        answer_2: 'They are the same distance from Earth.'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Stern A ist ein roter Hauptreihenstern, Stern B ein blauer Hauptreihenstern. Wenn beide Sterne gleich hell erscheinen, welcher liegt n&auml;her bei der Erde?'
+        answer_0: 'Stern A'
+        answer_1: 'Stern B'
+        answer_2: 'Sie haben den gleichen Abstand zur Erde.'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_4:
-        text: 'In how many of the four galaxies shown do we observe regions containing cool gas & dust clouds?'
-        answer_0: 'One'
-        answer_1: 'Two'
-        answer_2: 'Three'
-        answer_3: 'Four'
-        answer_4: 'There is insufficient information to determine this.'
+        text: 'In wie vielen der vier gezeigten Galaxien sind Bereiche mit k&uuml;hlem Gas und Staubwolken zu sehen?'
+        answer_0: 'Eine'
+        answer_1: 'Zwei'
+        answer_2: 'Drei'
+        answer_3: 'Vier'
+        answer_4: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_5:
-        text: 'In this picture the Earth-Moon system is shown (not to scale) along with three possible positions (A-C) for a spacecraft traveling from Earth to the Moon. Note that Position B is exactly halfway between Earth and the Moon. In what direction would the net (total) force of gravity on the spacecraft point if it were located at Position B?'
-        answer_0: 'toward the Moon'
-        answer_1: 'toward Earth'
-        answer_2: 'Since the spacecraft is exactly halfway between Earth and the Moon, the gravitational force by Earth on the spacecraft is equal to the gravitational force on the spacecraft by the Moon, so the net (total) force would be zero and not point in either direction.'
-    
+        text: 'In diesem Bild sieht man das System Erde-Mond (nicht ma&szlig;stabsgerecht) und drei m&ouml;gliche Positionen (A-C) eines Raumschiffs, das von der Erde zum Mond fliegt. Position B liegt genau in der Mitte zwischen Erde und Mond. In welche Richtung wirkt die Gesamt-Gravitationskraft am Raumschiff, wenn es sich an Position B befindet?'
+        answer_0: 'in Richtung des Mondes'
+        answer_1: 'in Richtung der Erde'
+        answer_2: 'Da sich das Raumschiff genau zwischen Mond und Erde befindet, ist die von der Erde ausge&uuml;bte Gravitationskraft genau so gro&szlig; wie die des Mondes. Die resultierende Gesamtgravitationskraft ist daher gleich Null und wirkt in keine Richtung.'
+        
     set_5:
       question_0:
-        text: 'Which of the following is not a form of light?'
-        answer_0: 'radio waves'
-        answer_1: 'microwaves'
-        answer_2: 'x-rays'
-        answer_3: 'All of the above are a form of light.'
-        answer_4: 'None of the above is a form of light.'
+        text: 'Was ist nicht eine Art von Licht?'
+        answer_0: 'Radiowellen'
+        answer_1: 'Mikrowellen'
+        answer_2: 'R&ouml;ntgenstrahlung'
+        answer_3: 'Jedes der drei ist eine Art von Licht.'
+        answer_4: 'Keines der drei ist eine Art von Licht.'
       
       question_1:
-        text: 'A collision of two spiral galaxies produces'
-        answer_0: 'a spiral galaxy.'
-        answer_1: 'an elliptical galaxy.'
-        answer_2: 'either a spiral or elliptical galaxy.'
-        answer_3: 'No galaxy will remain.'
+        text: 'Ein Zusammensto&szlig; zweier Galaxien erzeugt'
+        answer_0: 'eine Spiralgalaxie.'
+        answer_1: 'eine elliptische Galaxie.'
+        answer_2: 'entweder eine Spiralgalaxie oder eine elliptische Galaxie.'
+        answer_3: 'Es wird keine Galaxie zur&uuml;ckbleiben.'
       
       question_2:
         text: 'Which of the following components of a spiral galaxy has the most mass?'
@@ -516,51 +513,51 @@ module.exports =
         answer_3: 'There is insufficient information to determine this.'
       
       question_3:
-        text: 'Answer the following question using the image, which represents the Milky Way Galaxy. Approximately how large is the diameter of the white dot?'
-        answer_0: '1,000 light years'
-        answer_1: '10,000 light years'
-        answer_2: '50,000 light years'
-        answer_3: '100,000 light years'
+        text: 'Beantworten Sie die folgende Frage mit Hilfe des Bildes, das die Milchstra&szlig;e darstellt.  Wie gro&szlig; ist ungef&auml;hr der Durchmesser des wei&szlig;en Punktes?'
+        answer_0: '1.000 Lichtjahre'
+        answer_1: '10.000 Lichtjahre'
+        answer_2: '25.000 Lichtjahre'
+        answer_3: '100.000 Lichtjahre'
       
       question_4:
-        text: 'Consider the information given below about three main sequence Stars A, B, and C. Star A will be a main sequence star for a total of 15 billion years. Star B gives off the same amount of light as the Sun. Star C is red. Which of the following is a true statement about these stars?'
-        answer_0: 'Star A has the greatest mass.'
-        answer_1: 'Star B has the greatest mass.'
-        answer_2: 'Star C has the greatest mass.'
-        answer_3: 'Stars A, B and C all have approximately the same mass.'
-        answer_4: 'There is insufficient information to determine this.'
+        text: 'Es sei Folgendes &uuml;ber die Hauptreihensterne A, B, C bekannt: Stern A wird f&uuml;r insgesamt 15 Milliarden Jahre ein Hauptreihenstern zur Hauptreihe geh&ouml;ren. Stern B emittiert die gleiche Menge Licht wie die Sonne. Stern C ist rot. Welche der folgenden Aussagen stimmt?'        answer_0: 'Star A has the greatest mass.'
+        answer_0: 'Stern A hat die gr&ouml;&szlig;te Masse.'
+        answer_1: 'Stern B hat die gr&ouml;&szlig;te Masse.'
+        answer_2: 'Stern C hat die gr&ouml;&szlig;te Masse.'
+        answer_3: 'Alle drei Sterne haben etwa die selbe Masse.'
+        answer_4: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_5:
-        text: 'Assume the two galaxies shown have the same total number of stars. Which of these two galaxies most likely has the fewest bright blue stars?'
-        answer_0: 'Galaxy A'
-        answer_1: 'Galaxy B'
-        answer_2: 'They have the same number of bright blue stars.'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Angenommen, die beiden hier gezeigten Galaxien haben die gleiche Gesamtzahl an Sternen. Welche der beiden Galaxien hat wahrscheinlich weniger helle, blaue Sterne?'
+        answer_0: 'Galaxie A'
+        answer_1: 'Galaxie B'
+        answer_2: 'Sie haben die gleiche Anzahl heller, blauer Sterne.'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
     
     set_6:
       question_0:
-        text: 'Star A is hotter than Star B. Star B gives off much more light than Star A. Which star is larger?'
-        answer_0: 'Star A'
-        answer_1: 'Star B'
-        answer_2: 'They are the same size.'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Stern A hei&szlig;er als Stern B. Stern B sendet viel mehr Licht aus als Stern A. Welcher Stern ist gr&ouml;&szlig;er?'
+        answer_0: 'Stern A'
+        answer_1: 'Stern B'
+        answer_2: 'Sie haben die gleiche Gr&ouml;&szlig;e.'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_1:
-        text: 'Star F is a red main sequence star and Star G is a blue main sequence star. Which star has a higher temperature?'
-        answer_0: 'Star F'
-        answer_1: 'Star G'
-        answer_2: 'They have the same temperature.'
-        answer_3: 'There is insufficient information to determine this.'
+        text: 'Stern F ist ein roter Hauptreihenstern, Stern G ein blauer Hauptreihenstern. Welcher Stern hat eine h&ouml;here Temperatur?'
+        answer_0: 'Stern F'
+        answer_1: 'Stern G'
+        answer_2: 'Sie haben die gleiche Temperatur.'
+        answer_3: 'Die Informationen sind nicht ausreichend, um das zu bestimmen.'
       
       question_2:
-        text: 'A collision of two elliptical galaxies produces'
-        answer_0: 'a spiral galaxy.'
-        answer_1: 'an elliptical galaxy.'
-        answer_2: 'either a spiral or elliptical galaxy.'
-        answer_3: 'No galaxy will remain.'
+        text: 'Ein Zusammensto&szlig; zweier elliptischer Galaxien erzeugt'
+        answer_0: 'eine Spiralgalaxie.'
+        answer_1: 'eine elliptische Galaxie.'
+        answer_2: 'entweder eine Spiralgalaxie oder eine elliptische Galaxie.'
+        answer_3: 'Es wird keine Galaxie zur&uuml;ckbleiben.'
       
       question_3:
-        text: 'Use the graph to answer the following question. Which of the following is the correct ranking for the size of Objects A-C, from largest to smallest?'
+        text: 'Beantworten Sie die folgende Frage anhand des Diagramms. Welche der folgenden Ungleichungen gibt die Gr&ouml;&szlig;enverh&auml;ltnisse der Objekte A-C korrekt wieder?'
         answer_0: 'A > C = B'
         answer_1: 'B = C > A'
         answer_2: 'A = C > B'
@@ -568,8 +565,7 @@ module.exports =
         answer_4: 'B > C = A'
       
       question_4:
-        text: 'Which diagram best describes the net (total) force of gravity on each of the three galaxies shown? Note that: Galaxy C has much more mass than Galaxy A and B  (which have equal mass). The arrows indicate the direction of the net (total) force of gravity exerted on each galaxy but not the strength'
-        answer_0: ''
+        text: 'Welches Diagramm gibt die Gesamt-Gravitationskraft am besten wider, die auf jede der drei hier gezeigten Galaxien wirkt? Es gelte, dass Galaxie eine viel h&ouml;here Masse als die Galaxien A und B, die jeweils gleiche Masse besitzen. Die Pfeile zeigen die Richtung der Gesamt-Gravitationskraft an, die auf jede Galaxie wirkt. Sie zeigen jedoch nicht die St&auml;rke der wirkenden Kraft an.'        answer_0: ''
         answer_1: ''
         answer_2: ''
         answer_3: ''
