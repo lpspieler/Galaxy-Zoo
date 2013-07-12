@@ -573,12 +573,12 @@ module.exports =
   
   
   astronomers:
-    heading: 'Galaxy Zoo for Astronomers'
+    heading: 'Galaxy Zoo f&uuml;r Astronomen'
     
     explanation:
-      goals: 'This page aims to give background to the scientific motivation behind the project for a more technical audience.'
-      data: 'You may be looking for data - public Galaxy Zoo data is available in a range of formats <a href="http://data.galaxyzoo.org">here</a>.'
-      papers: 'Alternatively, you can browse a list of papers published by the team <a href="/#/papers">here</a>.'
+      goals: 'Die Seite erl&auml;utert die Hintergr&uuml;nde des Projektes f&uuml;r Interessierte mit wissenschaftlicher Vorbildung.'
+      data: 'Die &ouml;ffentlichen Daten aus dem Galaxy Zoo-Projekt in verschiedenen Datenformaten erhalten Sie <a href="http://data.galaxyzoo.org">hier</a>.'
+      papers: 'Eine Liste der wissenschaftlichen Artikel, die vom Galaxy Zoo-Team publiziert wurden, finden Sie <a href="/#/papers">hier</a>.'
     
     morphology:
       heading: 'Why is galaxy morphology important?'
@@ -602,96 +602,94 @@ module.exports =
   
   
   classify:
-    heading: 'Classify'
-    restart: 'Restart'
-    help: 'Help'
-    sloan: 'SDSS'
+    heading: 'Klassifizieren'
+    restart: 'Zur&uuml;ck zum Anfang'
+    help: 'Hilfe'
+    sloan: 'Zum SDSS-Eintrag'
     candels: 'Hubble'
     group: 'Group'
-    favorite: 'Favourite'
-    invert: 'Invert'
+    favorite: 'Zu Favoriten hinzuf&uuml;gen'
+    invert: 'Bild invertieren'
   
   
   help:
-    title: 'Help'
-    examples: 'Examples'
+    title: 'Hilfe'
+    examples: 'Beispiele'
   
   
   home:
-    headline: "Few have witnessed what you're about to see"
-    call_to_action: 'Experience a privileged glimpse of the distant universe, observed by the Sloan Digital Sky Survey and Hubble Space Telescope'
+    headline: "Nur wenige haben je gesehen, was Sie gleich sehen werden"
+    call_to_action: 'Erleben Sie eine exklusiven Blick in weit entfernte Bereiche des Universums, die vom Sloan Digital Sky Survey und dem Hubble Space Telescope aufgenommen wurden.'
     
     galaxy_zoo:
-      title: 'Classify Galaxies'
-      description: "To understand how galaxies formed we need your help to classify them according to their shapes. If you're quick, you may even be the first person to see the galaxies you're asked to classify."
-      classify: 'Begin Classifying'
+      title: 'Galaxien klassifizieren'
+      description: "Um zu vertehen, wie sich Galaxien gebildet haben, ben&ouml;tigen wir Ihre Hilfe, um Galaxien nach ihrer &auml;u&szlig;eren Form zu klassifizieren. Wenn Sie schnell sind, k&ouml;nten Sie sogar der erste Mensch sein, der die zu klassifizierenden Galaxien erblickt."
+      classify: 'Klassifizieren'
       
     
     galaxy_formation:
-      title: 'How Do Galaxies Form?'
-      body: 'Roughly one hundred billion galaxies are scattered throughout our observable Universe, each a glorious system that might contain billions of stars. Many are remarkably beautiful, and the aim of Galaxy Zoo is to study them, assisting astronomers in attempting to understand how the galaxies we see around us formed, and what their stories can tell us about the past, present and future of our Universe as a whole. <a data-nav="#/science" href="#/science">more</a>'
-    
+      title: 'Wie entstehen Galaxien?'
+      body: 'Das sichtbare Universum enth&auml;lt etwa einhundert Milliarden Galaxien. Jede Galaxie ist selbst ein riesiges System manchmal vielen Milliarden Sternen. Viele sind wundersch&ouml;n, und das Ziel von Galaxy Zoo ist, sie zu untersuchen. Astronomen versuchen zu verstehen, wie die Galaxien um uns herum enstanden und was ihre Geschichten uns &uuml;ber Vergangenheit, Gegenwart und Zukunft des gesamten Universums sagen. <a data-nav="#/science" href="#/science">mehr</a>'
     history:
-      title: 'History of Galaxy Zoo'
-      body: '''The launch of this new version of Galaxy Zoo, the 4th, comes just a few weeks after the site’s 5th birthday. It all started back in July 2007, with a data set made up of a million galaxies imaged by the Sloan Digital Sky Survey, who still provide some of the images in the site today. With so many galaxies, we'd assumed it would take years for visitors to the site to work through them all, but within 24 hours of launch we were stunned to be receiving almost 70,000 classifications an hour. In the end, more than 50 million classifications were received by the project during its first year, contributed by more than 150,000 people. <a data-nav="#/story" href="#/story">more</a>'''
-    
+      title: 'Die Geschichte von Galaxy Zoo'
+      body: '''Die aktuell vierte Version von Galaxy Zoo ging kurz nach dem f&uuml;nften Geburtstag des Projektes online. Alles begann im Juli 2007 mit einem Datensatz von Millionen Galaxien, deren Bilder im Rahmen des Sloan Digital Sky Survey aufgenommen wurden. Einige dieser Galaxien sind selbst im Datensatz des aktuellen Projektes vertreten. Bei so vielen Galaxien gingen wir davon aus, dass die Besucher unserer Seite Jahre brauchen w&uuml;rden, alle zu klassifizieren. Aber bereits 24 nach Stunden erhielten wir erstaunliche 70.000 Klassifikationen pro Stunde. Nach einem Jahr hatten mehr als 150.000 Freiwillige &uuml;ber 50 Millionen Klassifikationen abgegeben. <a data-nav="#/story" href="#/story">mehr</a>'''    
     classroom:
-      title: 'Galaxy Zoo in the Classroom'
-      body: 'Are you an educator? Would you like to use Galaxy Zoo with a group of students? The <a href="http://www.galaxyzoo.org/#/navigator/home">Navigator</a> is an interactive tool that allows groups to classify galaxies together and then investigate galaxy characteristics. <a href="http://www.zooteach.org/zoo/galaxy_zoo">Zoo Teach</a> is where educators can share lessons, resources and that compliment the citizen science projects that are part of the Zooniverse.'
+      title: 'Galaxy Zoo im Klassenzimmer'
+      body: 'M&ouml;chten Sie Galaxy Zoo mit Ihren Sch&uuml;lern nutzen? Der <a href="http://www.galaxyzoo.org/#/navigator/home">Navigator</a> ist ein interaktives Softwaretool, mit dem Gruppen gemeinsam Galaxien klassifizieren und deren Eigenschaften untersuchen k&ouml;nnen. Auf <a href="http://www.zooteach.org/zoo/galaxy_zoo">Zoo Teach</a> k&ouml;nnen alle, die anderen Wissen vermitteln, Unterrichtsinhalte und Informationsquellen miteinander teilen, welche die Citizen Science-Projekte des Zooniverse erg&auml;nzen.'
       navigator: 'Navigator'
     
     recent_images:
-      title: 'Recent Images'
+      title: 'Zuletzt klassifziert'
   
   
   login_prompt:
-    title: 'Login or create an account to receive credit for your work'
-    decline: 'No, thanks'
+    title: 'Loggen Sie sich ein oder erstellen Sie ein Benutzerkonto, um die Anzahl Ihrer klassifizierten Galaxien aufzuzeichnen.'
+    decline: 'Nein danke'
   
   
   navigation:
-    classify: 'Classify'
-    science: 'Science'
+    classify: 'Klassifizieren'
+    science: 'Wissenschaft'
     blog: 'Blog'
-    team: 'Team'
-    papers: 'Papers'
-    data: 'Data'
-    story: 'Story'
+    team: 'Das Team'
+    papers: 'Wissenschaftliche Artikel'
+    data: 'Datens&auml;tze'
+    story: 'Die Story'
     galaxy_zoo: 'Galaxy Zoo'
-    astronomers: 'Astronomers'
-    discuss: 'Discuss'
+    astronomers: 'F&uuml;r Astronomen'
+    discuss: 'Diskutieren'
     talk: 'Talk'
     forum: 'Forum'
-    profile: 'Profile'
+    profile: 'Mein Profil'
   
   
   papers:
-    title: 'Published Papers'
-    description: 'The efforts of the Galaxy Zoo community has resulted in fantastically rich dataset with which to do science. Below is a list of just some of the publications that have come about because of the classifications collected on Galaxy Zoo.'
-    available: 'available here'
+    title: 'Wissenschaftliche Artikel'
+    description: 'Die Galaxy Zoo-Community hat eine Unmenge reichhaltiger Daten erzeugt, die die Basis f&uuml;r Forschung bilden k&ouml;nnen. Hier finden Sie einige der Publikationen, die mit Hilfe der in Galaxy Zoo gesammelten Klassifikationen entstanden sind.'
+    available: 'hier verf&uuml;gbar'
   
   
   profile:
-    favorites: 'Favourites'
-    recents: 'Recents'
-    remove_favorite: 'Remove this favourite'
-    favorite_this: 'Favourite this'
-    classifications: 'Classifications'
+    favorites: 'Favoriten'
+    recents: 'Zuletzt klassifziert'
+    remove_favorite: 'Aus Favoriten l&ouml;schen'
+    favorite_this: 'Zu Favoriten hinzuf&uuml;gen'
+    classifications: 'Klassifikationen'
     hubble: 'Hubble'
-    hubble_classifications: 'Hubble Classifications'
+    hubble_classifications: 'Hubble Klassifikationen'
     sdss: 'SDSS'
-    sdss_classifications: 'SDSS Classifications'
-    quiz: 'Quizzes'
-    quizzes: 'Quizzes'
-    quizzes_taken: 'Quizzes Taken'
-    take_a_quiz: 'Take a quiz now'
+    sdss_classifications: 'SDSS Klassifikationen'
+    quiz: 'Quiz'
+    quizzes: 'Quizspiele'
+    quizzes_taken: 'Absolvierte Spiele'
+    take_a_quiz: 'Neues Quiz'
     galaxy_zoo_hubble: 'Galaxy Zoo: Hubble'
-    galaxy_zoo_hubble_link: '''If you're looking for your old galaxies from Galaxy Zoo Hubble, then you can <a href="http://hubble.galaxyzoo.org/my_galaxies" target="_blank">find them here</a>.'''
+    galaxy_zoo_hubble_link: '''Ihre in Galaxy Zoo Hubble klassifizierten Galaxien, finden Sie <a href="http://hubble.galaxyzoo.org/my_galaxies" target="_blank">hier</a>.'''
   
   
   science:
-    title: 'The Science behind the Site'
-    p1: 'Roughly one hundred billion galaxies are scattered throughout our observable Universe, each a glorious system that might contain billions of stars. Many are remarkably beautiful, and the aim of Galaxy Zoo is to study them, assisting astronomers in attempting to understand how the galaxies we see around us formed, and what their stories can tell us about the past, present and future of our Universe as a whole.'
+    title: 'Wissenschaftlicher Hintergrund'
+    p1: 'Das sichtbare Universum enth&auml;lt etwa einhundert Milliarden Galaxien. Jede Galaxie ist selbst ein riesiges System manchmal vielen Milliarden Sternen. Viele sind wundersch&ouml;n, und das Ziel von Galaxy Zoo ist, sie zu untersuchen. Astronomen versuchen zu verstehen, wie die Galaxien um uns herum enstanden und was ihre Geschichten uns &uuml;ber Vergangenheit, Gegenwart und Zukunft des gesamten Universums sagen.'    
     p2: "Our strategy is based on the remarkable fact that you can tell a lot about a galaxy just from its shape. Find a system with spiral arms, for example, and normally - but critically not always - you'll know that you're looking at a rotating disk of stars, dust and gas with plenty of fuel for future star formation. Find one of the big balls of stars we call ellipticals, however, and you're probably looking at a more mature system, one which long ago finished forming stars. The galaxies' histories are also revealed; that elliptical is likely to be the product of a head-on collision between two smaller galaxies, and smaller scars such as warped disks, large bulges or long streams of stars bear testament to the complexity of these galaxies' lives."
     p3: "We've already said that a merger can have a major impact on a galaxy’s appearance, but many other factors could have played an important role; for example, there is steadily growing evidence (not least from previous Galaxy Zoo projects) that the black holes that lurk at the heart of galaxies may have a profound effect on their surroundings."
     p4: 'As material falls towards the black hole, it can be heated to enormous temperatures and the resulting radiation packs a powerful punch, sometimes aided by the presence of powerful jets of materials flung away from the vicinity of the black hole (though not, of course, from the black hole itself) at close to the speed of light. These combination of forces can, it seems, heat or expel gas from the galaxy, depriving it of fuel for future star formation and changing its face for ever.'
@@ -706,8 +704,8 @@ module.exports =
   
   
   story:
-    title: 'The Story So Far'
-    p1: "The launch of this new version of Galaxy Zoo, the 4th, comes just a few weeks after the site's 5th birthday. It all started back in July 2007, with a data set made up of a million galaxies imaged by the Sloan Digital Sky Survey, who still provide some of the images in the site today. With so many galaxies, we'd assumed it would take years for visitors to the site to work through them all, but within 24 hours of launch we were stunned to be receiving almost 70,000 classifications an hour. In the end, more than 50 million classifications were received by the project during its first year, contributed by more than 150,000 people."
+    title: 'Was bisher geschah'
+    p1: "Die aktuell vierte Version von Galaxy Zoo ging kurz nach dem f&uuml;nften Geburtstag des Projektes online. Alles begann im Juli 2007 mit einem Datensatz von Millionen Galaxien, deren Bilder im Rahmen des Sloan Digital Sky Survey aufgenommen wurden. Einige dieser Galaxien sind selbst im Datensatz des aktuellen Projektes vertreten. Bei so vielen Galaxien gingen wir davon aus, dass die Besucher unserer Seite Jahre brauchen w&uuml;rden, alle zu klassifizieren. Aber bereits 24 nach Stunden erhielten wir erstaunliche 70.000 Klassifikationen pro Stunde. Nach einem Jahr hatten mehr als 150.000 Freiwillige &uuml;ber 50 Millionen Klassifikationen abgegeben."    
     p2: "That meant that each galaxy was seen by many different participants. This is deliberate; having multiple independent classifications of the same object is important, as it allows us to assess how reliable our results are. For example, for projects where we may only need a few thousand galaxies but want to be sure they're all spirals before using up valuable telescope time on them, there's no problem - we can just use those that 100% of classifiers agree are spiral. For other projects, we may need to look at the properties of hundreds of thousands of galaxies, and can use those that a majority say are spiral."
     p3: '''The task in that first Galaxy Zoo was slightly simpler than yours; all we asked volunteers to do was to split the galaxies into ellipticals, mergers and spirals and - if the galaxy was spiral - to record the direction of the arms. But it was enough to show that the classifications Galaxy Zoo provides were as good as those from professional astronomers, and were of use to a large number of researchers. You can find out what people have been up to with Galaxy Zoo data in our list of <a href="#/papers" data-nav="/papers">papers published</a> and on the <a href="http://blog.galaxyzoo.org" target="_blank">Galaxy Zoo blog</a>, as well as below. Perhaps the most exciting sign of success is the fact that we’ve been successful in bidding for time on some of the largest telescopes in the world to follow up on many Galaxy Zoo discoveries : the list currently includes the Isaac Newton and William Herschel Telescopes on the island of La Palma in the Canaries, Gemini South in Chile, the WIYN telescope on Kitt Peak, Arizona, the IRAM radio telescope in Spain's Sierra Nevada, Swift, GALEX, Chandra, XMM-Newton and Suzaku up in space, and perhaps most excitingly the Hubble Space Telescope.'''
     p4: "Galaxy Zoo 2 was inspired by our newfound confidence in the ability of you, our volunteer classifiers, and so we asked for a closer look at just over 200,000 of the brightest of the Sloan galaxies. We asked about the number of spiral arms, the size of the galaxies' bulges and much else besides. Once again, we were thrilled with the response (and a little more prepared for it than we were for Zoo 1!) and in the 14 months the site was up we received a little more than 60 million classifications."
@@ -716,9 +714,9 @@ module.exports =
   
   
   team:
-    title: 'The Galaxy Zoo Team'
+    title: 'Das Galaxy Zoo-Team'
     science:
-      title: 'Science Team'
+      title: 'Das Wissenschaftsteam'
       simmons: '''<span class="person">Brooke Simmons</span> - Astronomer, University of Oxford<br />Supermassive black holes live in galaxies; the bigger the galaxy, the bigger the black hole. But, wait. Why should that be? Galaxies are huge, and even supermassive black holes are small by comparison. So how do they grow together? That's cool. Brooke studies that. Mostly.'''
       bamford: '<span class="person">Steven Bamford</span> - Astronomer, University of Nottingham<br />Works on figuring out what makes galaxies look the way they do: how they formed and why they change as they get older and move to new cosmic locations.  When not busy working on science or doing his bit to help run the Zooniverse, he is usually to be found entertaining his two young children or sailing a boat.'
       lintott: '''<span class="person">Chris Lintott</span> - Principal Investigator: Astronomer, University of Oxford<br />  Runs the Zooniverse collaboration and works on how galaxies form and evolve; particularly interested in the effects of active galactic nuclei and mergers. In his 'spare' time, he hunts for planets, presents the BBC's long-running Sky at Night program and cooks.'''
@@ -744,7 +742,7 @@ module.exports =
       wong: '<span class="person">Ivy Wong</span> - Astronomer, CSIRO'
     
     dev:
-      title: 'Zooniverse Development Team'
+      title: 'Das Zooniverse-Entwicklungsteam'
       kapadia: '<span class="person">Amit Kapadia</span><br />Amit Kapadia develops astronomical web applications. He is a citizen science developer for the crowd-sourcing based platform Zooniverse. New to the world of JavaScript he spends his days dreaming of conducting in-browser analyses on astronomical data sets. On occasion he flexes his modest sway to advocate for more modern solutions to data access in astronomy. He believes the scientific world needs to speak more closely with the tech world, and constantly strives to learn more from the latter. Amit is often found at the Adler Planetarium in Chicago.'
       carstensen: '<span class="person">Brian Carstensen</span><br />Brian is a web developer working on the Zooniverse family of projects at the Adler Planearium. Brian has a degree in graphic design from Columbia College in Chicago, and worked in that field for a number of years before finding a niche in web development.'
       miller: '''<span class="person">David Miller</span><br />As a visual communicator, David is passionate about tellings stories through clear, clean, and effective design. Before joining the Zooniverse team as Visual Designer, David worked for The Raindance Film Festival, the News 21 Initiative's Apart From War, Syracuse Magazine, and as a freelance designer for his small business, Miller Visual. David is a graduate of the S.I. Newhouse School of Public Communications at Syracuse University, where he studied Visual & Interactive Communications.'''
@@ -755,23 +753,23 @@ module.exports =
       whyte: '''<span class="person">Laura Whyte</span><br />Having spent her PhD trying to get computers to classify galaxies, Laura know only to well the true value of the contribution to science made by the Galaxy Zoo volunteers. Since leaving astronomy she has retrained as a Maths teacher and picked up a few programming skills. It was with great delight she joined the team at the Zooniverse, developing online education and research tools, allowing her to use bits and pieces of all the skills she's picked up over the last decade.'''
     
     czech:
-      title: 'Galaxy Zoo Czech Support Team'
+      title: 'Das tschechische Galaxy Zoo-Support-Team'
       vykouril: '<span class="person">Dušan Vykouřil</span><br />Initiator, and coordinator Czech Galaxy Zoo. He thinks that line of the universe is never-ending. He like pushes the limits of the unknown.'
       moudra: '<span class="person">Míla Moudrá</span><br />Main Czech Galaxy Zoo translator. Student from Prague, Czech republic, and amateur astronomer, especially deep-sky objects (i.e. galaxies, among others) visual observer. Interested in protection of environment and small rodents :-)'
       hresil: '<span class="person">Petr Hřešil</span><br />Czech Galaxy Zoo co-translator. He has always been fascinated by the sky and the universe but he got trapped into the IT world and fell into the clutches of the Internet. Fan of Distributed computing, lover of sci-fi which allows him to set out "Where No One Has Gone Before".'
       miksovsky: '<span class="person">Jaroslav Mikšovský</span><br />Czech Galaxy Zoo corrector. Pensioner still economically active.'
     
     french:
-      title: 'Galaxy Zoo France Support Team'
+      title: 'Das Galaxy Zoo-Support-Team in Frankreich'
       marco: '<span class="person">Olivier Marco</span> - Observatoire de Paris'
     
     german:
-      title: 'Galaxy Zoo Germany Support Team'
+      title: 'Das Galaxy Zoo-Support-Team in Deutschland'
       poessel: '<span class="person">Markus Poessel</span> - Center for Astronomy Education and Outreach, Heidelberg<br />German Galaxy Zoo co-translator. Managing scientist of the Center for Astronomy Education and Outreach in Heidelberg, whose galaxy-shaped building has a disk, is not clumpy, can be viewed edge-on, has two spiral arms that are medium-tightly wound, and an obvious bulge. (And please tell him if you notice anything odd.).'
       leifke: '<span class="person">Carolin Leifke</span> - Center for Astronomy Education and Outreach, Heidelberg<br />German Galaxy Zoo co-translator. Observes flares on active stars with X-ray satellites and the VLT, and galaxies of all kind with her 16-inch Dobsonian. Has now turned her passion for astronomy education and outreach into a profession.'
     
     polish:
-      title: 'Galaxy Zoo Poland Support Team'
+      title: 'Das Galaxy Zoo-Support-Team in Polen'
       biernacki: '<span class="person">Paweł Biernacki</span><br />Student of astronomy at Wrocław University, enthusiast of the Sun, addicted to sci-fi books; upbeaten optimist and fan of soccer.'
       czart: '<span class="person">Krzysztof Czart</span><br />An astronomer and PhD student in a city where Nicolaus Copernicus was born, investigating the biggest stars in galaxies (those from Earth, too). In a spare time, he is a journalist as editor-in-chief of the Polish Astronomy Portal.'
       czernik: '<span class="person">Tomasz Czernik</span><br />Loves astronomy and photography. The youngest team member.'
@@ -784,7 +782,7 @@ module.exports =
       skowron: '<span class="person">Tomasz Skowron</span><br />Astronomy amateur and educator. Daily teacher of physics and astronomy in secondary school in Szczecin.'
     
     retired:
-      title: 'Retired members of the Galaxy Zoo Team'
+      title: 'Ehemalige Mitglieder des Galaxy Zoo-Teams'
       andreescu: '<span class="person">Dan Andreescu</span><br />Consultant by day, programmer and seeker of knowledge and fun by night. Avid basketball player and rookie surfer on the weekends.'
       land: '<span class="person">Kate Land</span><br />Added some much-missed glamour to the world of Theoretical Cosmology. Once could not sleep at night for thoughts about the early Universe, but slept during seminars instead. Now lured away by the bright lights of the City.'
       vandenberg: '<span class="person">Jan VandenBerg</span><br />Ringleader of the IT support circus in the JHU Physics & Astronomy department.'
@@ -796,52 +794,52 @@ module.exports =
   
   
   examine:
-    title: 'Examine'
-    survey: 'Survey'
-    right_ascension: 'Right Ascension'
-    declination: 'Declination'
+    title: 'Astronomische Daten'
+    survey: 'Zum Survey'
+    right_ascension: 'Rektaszension'
+    declination: 'Deklination'
     magnitude: 'Magnitude'
-    ned_link: 'Search NED'
-    discuss: 'Discuss this'
+    ned_link: 'NED-Suche'
+    discuss: '&Uuml;ber dieses Objekt diskutieren'
     hubble: 'Hubble'
     sdss: 'SDSS'
     sdss_id: 'SDSS ObjectId'
-    petro_rad: 'Petrosian Radius'
-    skyserver_link: 'View on SkyServer'
+    petro_rad: 'Petrosianischer Radius'
+    skyserver_link: 'Auf SkyServer ansehen'
   
   
   fits:
-    view: 'View raw data in different wavelengths'
+    view: 'Rohdaten in verschiedenen Wellenl&auml;ngen ansehen'
     x_y: 'X, Y'
-    intensity: 'Intensity'
-    color: 'Color'
-    linear: 'Linear'
-    logarithm: 'Logarithm'
-    square_root: 'Square Root'
-    arcsinh: 'Arcsinh'
-    power: 'Power'
+    intensity: 'Intensit&auml;t'
+    color: 'Farbe'
+    linear: 'Lineare Skala'
+    logarithm: 'Logarithmische Skala'
+    square_root: 'Quadratwurzel-Skala'
+    arcsinh: 'Arcsinh-Skala'
+    power: 'Exponential-Skala'
   
   
   quiz:
-    thanks: 'Thanks!'
-    help: 'Galaxy Zoo needs your help!'
-    research: 'We are doing research to better understand what Galaxy Zoo volunteers think about the universe.'
-    helping: 'You are helping us better understand what Galaxy Zoo volunteers think about the universe.'
-    gift: 'You have been entered into a raffle to win a <strong>$20 Amazon Gift Certificate</strong>.'
-    reward: 'As a reward, each time you complete a set of questions you will be entered in a raffle to win a <strong>$20 Amazon Gift Certificate</strong>.'
-    now_or_later: 'You can take another quiz now, or later by visiting your profile.'
-    start_next: 'When would you like to take the next set of questions?'
-    reminder: 'You have previously agreed to be asked a set of 5&ndash;6 short questions once every week.'
-    ready: 'Are you ready?'
-    now: 'Now'
-    later: 'Later'
-    complete: 'You have completed all the quizzes!'
+    thanks: 'Danke!'
+    help: 'Galaxy Zoo braucht Ihre Hilfe!'
+    research: 'Wir wollen erforschen, was die Freiwilligen von Galaxy Zoo &uuml;ber das Universum denken.'
+    helping: 'Sie helfen uns besser zu verstehen, was die Freiwilligen von Galaxy Zoo &uuml;ber das Universum denken.'
+    gift: 'Sie nehmen an der Verlosung eines <strong>Amazon-Gesschenkgutscheines im Wert von 20$</strong> teil.'
+    reward: 'Als kleine Anerkennung nehmen Sie jedesmal, wenn Sie eine Runde Quizfragen beantwortet haben, an einer Verlosung eines <strong>Amazon-Gesschenkgutscheines im Wert von 20$</strong> teil.'
+    now_or_later: 'Sie k&ouml;nnen jetzt eine neue Runde Fragen beantworten oder sp&auml;ter &uuml;ber Ihr Profil.'
+    start_next: 'Wann m&ouml;chten Sie die n&auml;chste Runde Quizfragen beantworten?'
+    reminder: 'Sie hatten vor einiger Zeit zugestimmt, jede Woche eine Runde von 5&ndash;6 kurzen Fragen zu beantworten.'
+    ready: 'Sind Sie Bereit?'
+    now: 'Jetzt'
+    later: 'Sp&auml;ter'
+    complete: 'Sie haben alle Quizrunden absolviert!'
     okay: 'Okay'
-    participate: 'Would you like to participate?'
-    yes: 'Yes!'
-    no_thanks: 'No, thanks'
-    ask_later: 'Ask later'
-    never_again: 'Never ask again'
+    participate: 'M&ouml;chten Sie mitmachen?'
+    yes: 'Ja!'
+    no_thanks: 'Nein Danke'
+    ask_later: 'Sp&auml;ter nachfragen'
+    never_again: 'Nicht mehr fragen'
     
     example:
       prompt: 'If you agree to help you will be given short surveys that contain 6 multiple choice questions, which you can answer at your own pace. The first survey is available immediately after you agree to participate.<br />A question might be:'
